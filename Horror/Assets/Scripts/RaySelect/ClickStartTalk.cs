@@ -12,11 +12,29 @@ public class ClickStartTalk : SelectionHighliting
     [SerializeField]
     private string strMessage = null;
 
+    private bool isTalkNow = false;
+
     public override void HitNow()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && !isTalkNow)
         {
-            flowchart.SendFungusMessage(strMessage);
+            StartTalk();
         }
+    }
+
+    private void StartTalk()
+    {
+        // 準備
+        isTalkNow = true;   // 会話中、再度会話を開始させない
+        GameManager.gameManager.LockPlayer();
+
+        // 会話開始
+        flowchart.SendFungusMessage(strMessage);
+    }
+
+    public void FinishTalk()
+    {
+        isTalkNow = false;  // 再度会話可能
+        GameManager.gameManager.UnLockPlayer();
     }
 }
