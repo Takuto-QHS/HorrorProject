@@ -6620,8 +6620,8 @@ GameObject:
   - component: {fileID: 171890279}
   - component: {fileID: 171890272}
   - component: {fileID: 171890278}
-  - component: {fileID: 171890277}
   - component: {fileID: 171890280}
+  - component: {fileID: 171890281}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6684,8 +6684,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 171890261}
-  selectedCommands: []
+  - {fileID: 171890272}
+  selectedCommands:
+  - {fileID: 171890281}
   variables: []
   description: 
   stepPause: 0
@@ -6950,33 +6951,8 @@ MonoBehaviour:
   blockName: "\u7D42\u4E86"
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
---- !u!114 &171890277
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171890259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 268
-    y: 39
-    width: 74
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 13
-  blockName: "\u6E96\u5099"
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 171890281}
   suppressAllAutoSelections: 0
 --- !u!114 &171890278
 MonoBehaviour:
@@ -7035,6 +7011,23 @@ MonoBehaviour:
   parentBlock: {fileID: 171890261}
   suppressBlockAutoSelect: 0
   message: Clipboard
+--- !u!114 &171890281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171890259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  targetObject: {fileID: 1019797489}
+  methodName: FinishTalk
+  delay: 0
 --- !u!4 &173191347 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: aeea0b19e5fc2f645a32d9adf42caf4d,
@@ -62248,7 +62241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1552503710}
+  selectedFlowchart: {fileID: 171890262}
 --- !u!4 &1976769966
 Transform:
   m_ObjectHideFlags: 1
