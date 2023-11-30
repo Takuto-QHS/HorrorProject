@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 /// <summary>
 /// Select中に左クリックするとチャットが出るスクリプト
@@ -13,6 +14,9 @@ public class ClickStartTalk : SelectionHighliting
     private string strMessage = null;
 
     private bool isTalkNow = false;
+
+    // Option
+    private CinemachineVirtualCamera cam;
 
     public override void HitNow()
     {
@@ -50,5 +54,14 @@ public class ClickStartTalk : SelectionHighliting
     {
         bool isCursol = false;
         Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
+    }
+    public void ChangeCamera(CinemachineVirtualCamera changeCam)
+    {
+        cam = changeCam;
+        cam.gameObject.SetActive(true);
+    }
+    public void ResetCamera()
+    {
+        cam.gameObject.SetActive(false);
     }
 }
