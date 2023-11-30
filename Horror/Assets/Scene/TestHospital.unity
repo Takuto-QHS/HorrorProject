@@ -30652,6 +30652,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1019797490}
+    - targetCorrespondingSourceObject: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1019797494}
   m_SourcePrefab: {fileID: 100100000, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
 --- !u!4 &1019797488 stripped
 Transform:
@@ -30677,50 +30681,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ab23781692db742ac1a7d97d552669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target_material: []
-  _intensityCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 2.000411
-      value: 0.19999346
-      inSlope: 0.00091644964
-      outSlope: 0.00091644964
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33357808
-      outWeight: 0
-    - serializedVersion: 3
-      time: 4.000236
-      value: 0.00021212877
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 4.9989734
-      value: 0.000059304155
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  flashColor: {r: 1, g: 1, b: 1, a: 1}
   outlineColor: {r: 0, g: 1, b: 1, a: 1}
   flowchart: {fileID: 171890262}
   strMessage: Clipboard
@@ -30745,6 +30705,52 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8931236, y: 0.027457952, z: 1.263422}
   m_Center: {x: -0.00053977966, y: 0.04221189, z: 0.17093325}
+--- !u!114 &1019797494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019797489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5858c30d8a4fee24cb7195fd7eaf7c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  _intensityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.9999137
+      value: 0.20093429
+      inSlope: 0.0012412764
+      outSlope: 0.0012412764
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.31658816
+      outWeight: 0
+    - serializedVersion: 3
+      time: 3.9854875
+      value: 0.0068973317
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1020139719 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 306fde77f10bf8d44bcd385d5d892492,
@@ -45286,50 +45292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc22df63c20c9bc48b8405c39cc89162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target_material: []
-  _intensityCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0.008934021
-      value: 0.001083374
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1.9940672
-      value: 0.20085824
-      inSlope: -0.0012832247
-      outSlope: -0.0012832247
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.44119745
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 4.0061264
-      value: -0.0033982247
-      inSlope: -0.003100455
-      outSlope: -0.003100455
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.051583257
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 5.0125628
-      value: -0.0046422035
-      inSlope: 0.00060984166
-      outSlope: 0.00060984166
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.8770101
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  flashColor: {r: 1, g: 1, b: 1, a: 1}
   outlineColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!65 &1471418764
 BoxCollider:
