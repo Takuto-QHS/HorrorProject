@@ -45,14 +45,8 @@ public class ClickStartTalk : SelectionHighliting
     ///
     /// 以下、オプション機能
     ///
-    public void SelectCursolOn()
+    public void SelectCursol(bool isCursol)
     {
-        bool isCursol = true;
-        Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
-    }
-    public void SelectCursolOff()
-    {
-        bool isCursol = false;
         Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
     }
     public void ChangeCamera(CinemachineVirtualCamera changeCam)

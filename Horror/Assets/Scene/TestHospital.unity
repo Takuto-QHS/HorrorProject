@@ -6813,10 +6813,10 @@ GameObject:
   - component: {fileID: 171890272}
   - component: {fileID: 171890278}
   - component: {fileID: 171890280}
-  - component: {fileID: 171890281}
-  - component: {fileID: 171890282}
   - component: {fileID: 171890284}
   - component: {fileID: 171890283}
+  - component: {fileID: 171890282}
+  - component: {fileID: 171890281}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6853,7 +6853,7 @@ MonoBehaviour:
   - {fileID: 171890271}
   - {fileID: 171890270}
   - {fileID: 171890268}
-  - {fileID: 171890282}
+  - {fileID: 171890284}
   suppressAllAutoSelections: 0
 --- !u!114 &171890262
 MonoBehaviour:
@@ -6988,7 +6988,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 171890283}
+  - {fileID: 171890282}
   - {fileID: 171890265}
   - {fileID: 171890278}
   suppressAllAutoSelections: 0
@@ -7069,7 +7069,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 171890284}
+  - {fileID: 171890283}
   - {fileID: 171890267}
   - {fileID: 171890279}
   suppressAllAutoSelections: 0
@@ -7218,14 +7218,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 171890259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 12
+  itemId: 19
   indentLevel: 0
+  description: 
   targetObject: {fileID: 1023527533}
-  methodName: FinishTalk
-  delay: 0
+  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: ClickStartTalk
+  targetMethod: FinishTalk
+  targetMethodText: 'FinishTalk (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &171890282
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7235,14 +7246,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 171890259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 13
+  itemId: 18
   indentLevel: 0
+  description: 
   targetObject: {fileID: 1023527533}
-  methodName: SelectCursolOn
-  delay: 0
+  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: ClickStartTalk
+  targetMethod: SelectCursol
+  targetMethodText: 'SelectCursol (Boolean): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &171890283
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7252,14 +7291,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 171890259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
+  itemId: 17
   indentLevel: 0
+  description: 
   targetObject: {fileID: 1023527533}
-  methodName: SelectCursolOff
-  delay: 0
+  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: ClickStartTalk
+  targetMethod: SelectCursol
+  targetMethodText: 'SelectCursol (Boolean): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &171890284
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7269,14 +7336,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 171890259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 14
+  itemId: 16
   indentLevel: 0
+  description: 
   targetObject: {fileID: 1023527533}
-  methodName: SelectCursolOff
-  delay: 0
+  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: ClickStartTalk
+  targetMethod: SelectCursol
+  targetMethodText: 'SelectCursol (Boolean): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 1
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!4 &173191347 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: aeea0b19e5fc2f645a32d9adf42caf4d,
@@ -26817,7 +26912,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 66
-    y: 65.630135
+    y: 64.630135
     width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
