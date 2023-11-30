@@ -6622,6 +6622,9 @@ GameObject:
   - component: {fileID: 171890278}
   - component: {fileID: 171890280}
   - component: {fileID: 171890281}
+  - component: {fileID: 171890282}
+  - component: {fileID: 171890284}
+  - component: {fileID: 171890283}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6645,7 +6648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 111
+    width: 112.8866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6658,6 +6661,7 @@ MonoBehaviour:
   - {fileID: 171890271}
   - {fileID: 171890270}
   - {fileID: 171890268}
+  - {fileID: 171890282}
   suppressAllAutoSelections: 0
 --- !u!114 &171890262
 MonoBehaviour:
@@ -6672,11 +6676,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 97, y: 95}
+  scrollPos: {x: 147.67526, y: 165.02576}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 1
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -6684,9 +6688,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 171890272}
-  selectedCommands:
-  - {fileID: 171890281}
+  - {fileID: 171890261}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -6782,8 +6785,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 123
-    y: 155
-    width: 118
+    y: 153.96907
+    width: 120.10309
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6792,6 +6795,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 171890283}
   - {fileID: 171890265}
   - {fileID: 171890278}
   suppressAllAutoSelections: 0
@@ -6863,7 +6867,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1
     y: 155
-    width: 117
+    width: 119.07217
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6872,6 +6876,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 171890284}
   - {fileID: 171890267}
   - {fileID: 171890279}
   suppressAllAutoSelections: 0
@@ -6943,7 +6948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83
     y: 238
-    width: 74
+    width: 74.74226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7013,7 +7018,7 @@ MonoBehaviour:
   message: Clipboard
 --- !u!114 &171890281
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7027,6 +7032,57 @@ MonoBehaviour:
   indentLevel: 0
   targetObject: {fileID: 1019797489}
   methodName: FinishTalk
+  delay: 0
+--- !u!114 &171890282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171890259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  targetObject: {fileID: 1019797489}
+  methodName: SelectCursolOn
+  delay: 0
+--- !u!114 &171890283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171890259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  targetObject: {fileID: 1019797489}
+  methodName: SelectCursolOff
+  delay: 0
+--- !u!114 &171890284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171890259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  targetObject: {fileID: 1019797489}
+  methodName: SelectCursolOff
   delay: 0
 --- !u!4 &173191347 stripped
 Transform:
@@ -60257,7 +60313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectReceiveObj: {fileID: 0}
-  distance: 3
+  distance: 1.5
 --- !u!114 &1918915869
 MonoBehaviour:
   m_ObjectHideFlags: 0

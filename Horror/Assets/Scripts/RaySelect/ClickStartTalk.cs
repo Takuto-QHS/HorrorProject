@@ -37,4 +37,18 @@ public class ClickStartTalk : SelectionHighliting
         isTalkNow = false;  // 再度会話可能
         GameManager.gameManager.UnLockPlayer();
     }
+
+    ///
+    /// 以下、オプション機能
+    ///
+    public void SelectCursolOn()
+    {
+        bool isCursol = true;
+        Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
+    }
+    public void SelectCursolOff()
+    {
+        bool isCursol = false;
+        Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
+    }
 }
