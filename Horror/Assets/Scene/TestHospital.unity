@@ -6817,6 +6817,10 @@ GameObject:
   - component: {fileID: 171890283}
   - component: {fileID: 171890282}
   - component: {fileID: 171890281}
+  - component: {fileID: 171890287}
+  - component: {fileID: 171890286}
+  - component: {fileID: 171890285}
+  - component: {fileID: 171890288}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6838,14 +6842,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
+    x: 64.560974
     y: 70
-    width: 110.9756
+    width: 119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: New Block
+  blockName: New Block0
   description: 
   eventHandler: {fileID: 171890280}
   commandList:
@@ -6868,11 +6872,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 235.96524, y: 207.56688}
+  scrollPos: {x: 38.12065, y: 552.73206}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.8200002
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -6880,9 +6884,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 171890272}
+  - {fileID: 171890287}
   selectedCommands:
-  - {fileID: 171890281}
+  - {fileID: 171890288}
   variables: []
   description: 
   stepPause: 0
@@ -6979,7 +6983,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 123
     y: 153.96907
-    width: 118.29267
+    width: 118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7060,12 +7064,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1
     y: 155
-    width: 117.07316
+    width: 129
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 4
-  blockName: New Block1
+  blockName: New Block111
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -7141,7 +7145,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83
     y: 238
-    width: 74.39024
+    width: 74
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7208,7 +7212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 171890261}
   suppressBlockAutoSelect: 0
-  message: Clipboard
+  message: 
 --- !u!114 &171890281
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7367,6 +7371,104 @@ MonoBehaviour:
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
     variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &171890285
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171890259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  storyText: My name is Fungus !!!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &171890286
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171890259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 171890287}
+  suppressBlockAutoSelect: 0
+  message: Clipboard
+--- !u!114 &171890287
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171890259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 61.59558
+    y: -380.5183
+    width: 111
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 20
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 171890286}
+  commandList:
+  - {fileID: 171890285}
+  - {fileID: 171890288}
+  suppressAllAutoSelections: 0
+--- !u!114 &171890288
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171890259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1023527533}
+  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: ClickStartTalk
+  targetMethod: FinishTalk
+  targetMethodText: 'FinishTalk (): Void'
+  methodParameters: []
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
@@ -63543,7 +63645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 877494061}
+  selectedFlowchart: {fileID: 171890262}
 --- !u!4 &1976769966
 Transform:
   m_ObjectHideFlags: 1

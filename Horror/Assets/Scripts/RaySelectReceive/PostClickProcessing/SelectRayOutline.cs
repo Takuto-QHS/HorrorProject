@@ -4,9 +4,9 @@ using UnityEngine;
 
 /// <summary>
 /// プレイヤーの視線がオブジェクトに当たった時に
-/// そのオブジェクト全てのアウトラインを表示するスクリプト
+/// そのオブジェクトの全ての子のアウトラインを表示するスクリプト
 /// </summary>
-public class SelectionHighliting : IPlayerSelectRayReceive
+public class SelectRayOutline : IPlayerSelectRayReceive
 {
     private Outline outline;
     private List<Material> target_material = new List<Material>();
@@ -51,9 +51,9 @@ public class SelectionHighliting : IPlayerSelectRayReceive
         SwitchOutline(false);
     }
 
-    void SwitchOutline(bool enable)
+    void SwitchOutline(bool isEenable)
     {
-        if (enable)
+        if (isEenable)
         {
             if (outline.OutlineMode != Outline.Mode.OutlineAll)
             {

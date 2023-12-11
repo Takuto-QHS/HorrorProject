@@ -10,7 +10,7 @@ using UnityEngine;
 /// ※Physics Raycasterを使いたい所だが、Cursor.lockStateをLockedにすると
 /// 　Physics Raycasterが使えなくなる為自作しています。
 /// </summary>
-public class PlaeyrSelectRay : MonoBehaviour
+public class PlayerSelectRay : MonoBehaviour
 {
     public IPlayerSelectRayReceive selectReceiveObj;
 

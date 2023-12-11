@@ -6,7 +6,7 @@ using Cinemachine;
 /// <summary>
 /// Select中に左クリックするとチャットが出るスクリプト
 /// </summary>
-public class ClickStartTalk : SelectionHighliting
+public class ClickStartTalk : SelectRayOutline
 {
     [SerializeField]
     private Fungus.Flowchart flowchart = null;
