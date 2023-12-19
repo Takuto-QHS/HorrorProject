@@ -12,7 +12,7 @@ using UnityEngine;
 /// </summary>
 public class PlayerSelectRay : MonoBehaviour
 {
-    public IPlayerSelectRayReceive selectReceiveObj;
+    public List<IPlayerSelectRayReceive> selectReceiveObj = new List<IPlayerSelectRayReceive>();
 
     private Camera playerCamera;
     [SerializeField]
@@ -34,29 +34,36 @@ public class PlayerSelectRay : MonoBehaviour
         // 何かヒットした時
         if (isHit)
         {
-            IPlayerSelectRayReceive tempReceive = raycastHit.collider.gameObject.GetComponent<IPlayerSelectRayReceive>();
+            IPlayerSelectRayReceive[] tempReceive = raycastHit.collider.gameObject.GetComponents<IPlayerSelectRayReceive>();
 
-            // 最初にヒットしたObjに受信側スクリプトがあるか
-            if(tempReceive != null)
+            // ヒットしたObjに受信側スクリプトが1つ以上あるか
+            if(tempReceive.Length != 0)
             {
-                if (selectReceiveObj == null)
+                foreach(IPlayerSelectRayReceive receive in tempReceive)
                 {
-                    tempReceive.FirstHit();
-                    selectReceiveObj = tempReceive;
-                }
-                else
-                {
-                    // ヒット中
-                    selectReceiveObj.HitNow();
+                    // 初ヒットか
+                    if (selectReceiveObj.Count == 0)
+                    {
+                        receive.FirstHit();
+                        selectReceiveObj.Add(receive);
+                    }
+                    else
+                    {
+                        // ヒット中
+                        receive.HitNow();
+                    }
                 }
             }
             else
             {
                 // 保持中のreceiveObjがある場合
-                if (selectReceiveObj)
+                if (selectReceiveObj.Count != 0)
                 {
-                    selectReceiveObj.NotHit();
-                    selectReceiveObj = null;
+                    foreach (IPlayerSelectRayReceive receive in selectReceiveObj)
+                    {
+                        receive.NotHit();
+                    }
+                    selectReceiveObj.Clear();
                 }
             }
         }
@@ -64,10 +71,13 @@ public class PlayerSelectRay : MonoBehaviour
         else
         {
             // 保持中のreceiveObjがある場合
-            if (selectReceiveObj)
+            if (selectReceiveObj.Count != 0)
             {
-                selectReceiveObj.NotHit();
-                selectReceiveObj = null;
+                foreach (IPlayerSelectRayReceive receive in selectReceiveObj)
+                {
+                    receive.NotHit();
+                }
+                selectReceiveObj.Clear();
             }
         }
     }

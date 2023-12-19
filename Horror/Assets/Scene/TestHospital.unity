@@ -5999,11 +5999,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 153399724}
+      addedObject: {fileID: 153399727}
     - targetCorrespondingSourceObject: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 153399723}
+    - targetCorrespondingSourceObject: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 153399724}
   m_SourcePrefab: {fileID: 100100000, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
 --- !u!1 &153399721 stripped
 GameObject:
@@ -6075,7 +6079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ab23781692db742ac1a7d97d552669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineColor: {r: 0, g: 1, b: 1, a: 1}
   flowchart: {fileID: 877494061}
   strMessage: NovelClipboard
 --- !u!65 &153399725
@@ -6099,6 +6102,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8931236, y: 0.027457952, z: 1.263422}
   m_Center: {x: -0.00053977966, y: 0.04221189, z: 0.17093325}
+--- !u!114 &153399727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153399721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc22df63c20c9bc48b8405c39cc89162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!1001 &154048760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6844,7 +6860,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.560974
     y: 70
-    width: 119
+    width: 118.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6872,11 +6888,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 38.12065, y: 552.73206}
+  scrollPos: {x: 182.61618, y: 565.89154}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 1
+  zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -6885,8 +6901,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 171890287}
-  selectedCommands:
-  - {fileID: 171890288}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -6983,7 +6998,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 123
     y: 153.96907
-    width: 118
+    width: 118.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7064,7 +7079,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1
     y: 155
-    width: 129
+    width: 128.40909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7145,7 +7160,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83
     y: 238
-    width: 74
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7229,10 +7244,10 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 1023527533}
-  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+  targetComponentAssemblyName: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: ClickStartTalk
+  targetComponentText: ClickStartTalkComponent
   targetMethod: FinishTalk
   targetMethodText: 'FinishTalk (): Void'
   methodParameters: []
@@ -7257,10 +7272,10 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 1023527533}
-  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+  targetComponentAssemblyName: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: ClickStartTalk
+  targetComponentText: ClickStartTalkComponent
   targetMethod: SelectCursol
   targetMethodText: 'SelectCursol (Boolean): Void'
   methodParameters:
@@ -7302,10 +7317,10 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 1023527533}
-  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+  targetComponentAssemblyName: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: ClickStartTalk
+  targetComponentText: ClickStartTalkComponent
   targetMethod: SelectCursol
   targetMethodText: 'SelectCursol (Boolean): Void'
   methodParameters:
@@ -7347,10 +7362,10 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 1023527533}
-  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+  targetComponentAssemblyName: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: ClickStartTalk
+  targetComponentText: ClickStartTalkComponent
   targetMethod: SelectCursol
   targetMethodText: 'SelectCursol (Boolean): Void'
   methodParameters:
@@ -7432,9 +7447,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 61.59558
-    y: -380.5183
-    width: 111
+    x: 67.565735
+    y: -343.20508
+    width: 111.36363
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7462,10 +7477,10 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 1023527533}
-  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+  targetComponentAssemblyName: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: ClickStartTalk
+  targetComponentText: ClickStartTalkComponent
   targetMethod: FinishTalk
   targetMethodText: 'FinishTalk (): Void'
   methodParameters: []
@@ -15318,7 +15333,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_Name
-      value: Clipboard
+      value: SelectOnlyClipboard
       objectReference: {fileID: 0}
     - target: {fileID: 4795266759639050, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_RootOrder
@@ -26985,9 +27000,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 877494068}
+  - {fileID: 877494062}
   selectedCommands:
-  - {fileID: 877494096}
+  - {fileID: 877494085}
   variables: []
   description: 
   stepPause: 0
@@ -27138,10 +27153,10 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 153399721}
-  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+  targetComponentAssemblyName: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: ClickStartTalk
+  targetComponentText: ClickStartTalkComponent
   targetMethod: ChangeCamera
   targetMethodText: 'ChangeCamera (CinemachineVirtualCamera): Void'
   methodParameters:
@@ -27344,10 +27359,10 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 153399721}
-  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+  targetComponentAssemblyName: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: ClickStartTalk
+  targetComponentText: ClickStartTalkComponent
   targetMethod: ResetCamera
   targetMethodText: 'ResetCamera (): Void'
   methodParameters: []
@@ -27427,10 +27442,10 @@ MonoBehaviour:
   indentLevel: 0
   description: 
   targetObject: {fileID: 153399721}
-  targetComponentAssemblyName: ClickStartTalk, Assembly-CSharp, Version=0.0.0.0,
+  targetComponentAssemblyName: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: ClickStartTalk
+  targetComponentText: ClickStartTalkComponent
   targetMethod: FinishTalk
   targetMethodText: 'FinishTalk (): Void'
   methodParameters: []
@@ -32016,7 +32031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ab23781692db742ac1a7d97d552669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineColor: {r: 0, g: 1, b: 1, a: 1}
   flowchart: {fileID: 171890262}
   strMessage: Clipboard
 --- !u!65 &1023527537
@@ -32040,6 +32054,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8931236, y: 0.027457952, z: 1.263422}
   m_Center: {x: -0.00053977966, y: 0.04221189, z: 0.17093325}
+--- !u!114 &1023527539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023527533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc22df63c20c9bc48b8405c39cc89162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!1001 &1025490545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36223,6 +36250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChatClipboard
       objectReference: {fileID: 0}
+    - target: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4795266759639050, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -36294,11 +36325,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1023527536}
+      addedObject: {fileID: 1023527535}
     - targetCorrespondingSourceObject: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1023527535}
+      addedObject: {fileID: 1023527539}
+    - targetCorrespondingSourceObject: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1023527536}
   m_SourcePrefab: {fileID: 100100000, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
 --- !u!4 &1137408108 stripped
 Transform:
@@ -49171,11 +49206,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 552.2388, y: -2414.41}
+  scrollPos: {x: 843.3336, y: -2157.865}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.96999955
+  zoom: 0.43
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -49254,8 +49289,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -309.9292
-    y: 2641.037
-    width: 112.88663
+    y: 2640.006
+    width: 108.139534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -61698,7 +61733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fe4975858a698f4dba59da51dd4cc7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectReceiveObj: {fileID: 0}
+  selectReceiveObj: []
   distance: 1.5
 --- !u!114 &1918915869
 MonoBehaviour:
@@ -63645,7 +63680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 171890262}
+  selectedFlowchart: {fileID: 877494061}
 --- !u!4 &1976769966
 Transform:
   m_ObjectHideFlags: 1

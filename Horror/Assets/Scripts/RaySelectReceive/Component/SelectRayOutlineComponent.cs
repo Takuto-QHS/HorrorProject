@@ -6,16 +6,16 @@ using UnityEngine;
 /// プレイヤーの視線がオブジェクトに当たった時に
 /// そのオブジェクトの全ての子のアウトラインを表示するスクリプト
 /// </summary>
-public class SelectRayOutline : IPlayerSelectRayReceive
+public class SelectRayOutlineComponent : IPlayerSelectRayReceive
 {
     private Outline outline;
-    private List<Material> target_material = new List<Material>();
+    //private List<Material> target_material = new List<Material>();
     [SerializeField]
     Color outlineColor = Color.cyan;
 
     void Start()
     {
-        GetMaterials();
+        //GetMaterials();
 
         // アウトラインを追加して各種設定
         outline = this.gameObject.AddComponent<Outline>();
@@ -24,20 +24,20 @@ public class SelectRayOutline : IPlayerSelectRayReceive
         outline.OutlineWidth = 0.0f;
     }
 
-    void GetMaterials()
-    {
-        // このスクリプトの子のMeshRendererを全部拾う
-        MeshRenderer[] meshRenderers = this.GetComponentsInChildren<MeshRenderer>();
+    //void GetMaterials()
+    //{
+    //    // このスクリプトの子のMeshRendererを全部拾う
+    //    MeshRenderer[] meshRenderers = this.GetComponentsInChildren<MeshRenderer>();
 
-        // 各MeshRendererの中にあるマテリアルをリスト変数に全部入れる
-        foreach (MeshRenderer mesh in meshRenderers)
-        {
-            foreach (Material material in mesh.materials)
-            {
-                target_material.Add(material);
-            }
-        }
-    }
+    //    // 各MeshRendererの中にあるマテリアルをリスト変数に全部入れる
+    //    foreach (MeshRenderer mesh in meshRenderers)
+    //    {
+    //        foreach (Material material in mesh.materials)
+    //        {
+    //            target_material.Add(material);
+    //        }
+    //    }
+    //}
 
     public override void FirstHit()
     {

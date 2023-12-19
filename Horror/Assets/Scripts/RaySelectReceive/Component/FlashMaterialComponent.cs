@@ -19,7 +19,7 @@ public class FlashMaterialComponent : MonoBehaviour
     private float fadeTime = 0.0f;
     private float time = 0.0f;
 
-    void Start()
+    void Awake()
     {
         GetMaterials();
 
