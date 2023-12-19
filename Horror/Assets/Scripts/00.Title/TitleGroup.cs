@@ -10,6 +10,12 @@ public class TitleGroup : MonoBehaviour
     [SerializeField]
     private GameObject groupSelect;
 
+    public void StartTitle()
+    {
+        groupTitle.SetActive(true);
+        groupSelect.SetActive(false);
+    }
+
     public void OnClick()
     {
         groupTitle.SetActive(false);
