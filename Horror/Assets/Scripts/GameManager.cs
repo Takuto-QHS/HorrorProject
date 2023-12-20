@@ -33,4 +33,9 @@ public class GameManager : MonoBehaviour
         if (!playerCtr) return;
         playerCtr.enabled = true;
     }
+
+    public void ShowCursol(bool isCursol)
+    {
+        Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
+    }
 }
