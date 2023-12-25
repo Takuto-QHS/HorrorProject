@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Cinemachine;
 
 /// <summary>
 /// Select中に左クリックするとチャットが出るスクリプト
@@ -15,15 +14,10 @@ public class ClickStartTalkComponent : IPlayerSelectRayReceive
 
     private bool isTalkNow = false;
 
-    // Option
-    private CinemachineVirtualCamera cam;
-
     public override void HitNow()
     {
-        if(Input.GetMouseButtonDown(0) && !isTalkNow)
-        {
+        if (Input.GetMouseButtonDown(0) && !isTalkNow)
             StartTalk();
-        }
     }
 
     private void StartTalk()
@@ -40,22 +34,5 @@ public class ClickStartTalkComponent : IPlayerSelectRayReceive
     {
         isTalkNow = false;  // 再度会話可能
         GameManager.gameManager.UnLockPlayer();
-    }
-
-    ///
-    /// 以下、オプション機能
-    ///
-    public void SelectCursol(bool isCursol)
-    {
-        Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
-    }
-    public void ChangeCamera(CinemachineVirtualCamera changeCam)
-    {
-        cam = changeCam;
-        cam.gameObject.SetActive(true);
-    }
-    public void ResetCamera()
-    {
-        cam.gameObject.SetActive(false);
     }
 }

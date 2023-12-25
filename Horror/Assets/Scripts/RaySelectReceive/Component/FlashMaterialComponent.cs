@@ -62,10 +62,8 @@ public class FlashMaterialComponent : MonoBehaviour
 
         // 内部時刻をfadeTimeで折り返す
         if (time > fadeTime)
-        {
-            // Mathf.Repeatで0～fadeTimeの範囲の値が得られる
+            //Mathf.Repeatで0～fadeTimeの範囲の値が得られる
             time = Mathf.Repeat((float)time, fadeTime);
-        }
 
         // アニメーションカーブに従ったアルファ値計算
         float alpha = _intensityCurve.Evaluate((float)time);

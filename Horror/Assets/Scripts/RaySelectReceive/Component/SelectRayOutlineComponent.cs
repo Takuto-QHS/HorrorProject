@@ -8,36 +8,18 @@ using UnityEngine;
 /// </summary>
 public class SelectRayOutlineComponent : IPlayerSelectRayReceive
 {
-    private Outline outline;
-    //private List<Material> target_material = new List<Material>();
     [SerializeField]
-    Color outlineColor = Color.cyan;
+    private Color outlineColor = Color.cyan;
+    private Outline outline;
 
     void Start()
     {
-        //GetMaterials();
-
         // アウトラインを追加して各種設定
         outline = this.gameObject.AddComponent<Outline>();
         outline.OutlineColor = outlineColor;
         outline.OutlineMode = Outline.Mode.OutlineVisible;
         outline.OutlineWidth = 0.0f;
     }
-
-    //void GetMaterials()
-    //{
-    //    // このスクリプトの子のMeshRendererを全部拾う
-    //    MeshRenderer[] meshRenderers = this.GetComponentsInChildren<MeshRenderer>();
-
-    //    // 各MeshRendererの中にあるマテリアルをリスト変数に全部入れる
-    //    foreach (MeshRenderer mesh in meshRenderers)
-    //    {
-    //        foreach (Material material in mesh.materials)
-    //        {
-    //            target_material.Add(material);
-    //        }
-    //    }
-    //}
 
     public override void FirstHit()
     {
@@ -55,10 +37,8 @@ public class SelectRayOutlineComponent : IPlayerSelectRayReceive
     {
         if (isEenable)
         {
-            if (outline.OutlineMode != Outline.Mode.OutlineAll)
-            {
-                outline.OutlineWidth = 2.0f;
-            }
+            if (outline.OutlineMode == Outline.Mode.OutlineAll) return;
+            outline.OutlineWidth = 2.0f;
         }
         else
         {
