@@ -20,7 +20,7 @@ MonoBehaviour:
     PoseToolPivotMode:
       valueInternal: 0
     PoseToolMode:
-      valueInternal: 0
+      valueInternal: 2
     PoseMirrorMode:
       valueInternal: 0
     ConfigMode:
@@ -36,11 +36,11 @@ MonoBehaviour:
     TimelineViewMode:
       valueInternal: 0
     FramesScrollPosition:
-      valueInternal: -21.118904
+      valueInternal: -21.118902
     FramesZoom:
-      valueInternal: 0.6606935
+      valueInternal: 0.6606936
     PropertiesScrollPosition:
-      valueInternal: 273.504
+      valueInternal: 0
     PropertiesZoom:
       valueInternal: 1
     CurveYScrollPosition:

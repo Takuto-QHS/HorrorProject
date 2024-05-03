@@ -5,11 +5,19 @@ using UnityEngine;
 /// <summary>
 /// プレイヤーの視線がオブジェクトに当たった時に
 /// そのオブジェクトの全ての子のアウトラインを表示するスクリプト
+/// 
+/// ※「Not allowed to access vertex data on mesh...」というエラーが出た場合、
+/// 以下のURLを参考にFBXのRead/Writeを編集する事で修正出来ます
+/// https://qiita.com/supertask/items/c4e116255fa81fc26590
 /// </summary>
 public class SelectRayOutlineComponent : IPlayerSelectRayReceive
 {
+    private const float DEFAULT_OUTLINE_WIDTH = 0.0f;
+
     [SerializeField]
     private Color outlineColor = Color.cyan;
+    [SerializeField]
+    private float outlineWidth = 2.0f;
     private Outline outline;
 
     void Start()
@@ -18,7 +26,7 @@ public class SelectRayOutlineComponent : IPlayerSelectRayReceive
         outline = this.gameObject.AddComponent<Outline>();
         outline.OutlineColor = outlineColor;
         outline.OutlineMode = Outline.Mode.OutlineVisible;
-        outline.OutlineWidth = 0.0f;
+        outline.OutlineWidth = DEFAULT_OUTLINE_WIDTH;
     }
 
     public override void FirstHit()
@@ -33,16 +41,14 @@ public class SelectRayOutlineComponent : IPlayerSelectRayReceive
         SwitchOutline(false);
     }
 
-    void SwitchOutline(bool isEenable)
+    void SwitchOutline(bool isEnable)
     {
-        if (isEenable)
+        if (isEnable)
         {
             if (outline.OutlineMode == Outline.Mode.OutlineAll) return;
-            outline.OutlineWidth = 2.0f;
+            outline.OutlineWidth = outlineWidth;
+            return;
         }
-        else
-        {
-            outline.OutlineWidth = 0.0f;
-        }
+        outline.OutlineWidth = DEFAULT_OUTLINE_WIDTH;
     }
 }

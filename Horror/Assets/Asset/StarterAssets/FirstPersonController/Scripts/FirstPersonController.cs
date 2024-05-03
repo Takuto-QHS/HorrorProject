@@ -129,6 +129,16 @@ namespace StarterAssets
 			Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
 		}
 
+		/// <summary>
+		/// カットシーン等で視点セット後、最初にマウスを動かした際の処理で
+		/// 視点セット前の情報で計算する為「視点がガクッとなる」ので
+		/// 視点セット後の情報にする事で回避する為に作成した関数
+		/// </summary>
+		public void SetCinemachineTargetPitch(float value)
+        {
+			_cinemachineTargetPitch = value;
+        }
+
 		private void CameraRotation()
 		{
 			// if there is an input
@@ -136,18 +146,18 @@ namespace StarterAssets
 			{
 				//Don't multiply mouse input by Time.deltaTime
 				float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
-				
+
 				_cinemachineTargetPitch += _input.look.y * RotationSpeed * deltaTimeMultiplier;
 				_rotationVelocity = _input.look.x * RotationSpeed * deltaTimeMultiplier;
 
-				// clamp our pitch rotation
-				_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
+                // clamp our pitch rotation
+                _cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
 
-				// Update Cinemachine camera target pitch
-				CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
+                // Update Cinemachine camera target pitch
+                CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
 
-				// rotate the player left and right
-				transform.Rotate(Vector3.up * _rotationVelocity);
+                // rotate the player left and right
+                transform.Rotate(Vector3.up * _rotationVelocity);
 			}
 		}
 

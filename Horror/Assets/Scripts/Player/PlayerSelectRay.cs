@@ -56,29 +56,27 @@ public class PlayerSelectRay : MonoBehaviour
             }
             else
             {
+                if (selectReceiveObj.Count == 0) return;
+
                 // 保持中のreceiveObjがある場合
-                if (selectReceiveObj.Count != 0)
-                {
-                    foreach (IPlayerSelectRayReceive receive in selectReceiveObj)
-                    {
-                        receive.NotHit();
-                    }
-                    selectReceiveObj.Clear();
-                }
-            }
-        }
-        // 何もヒットしなかった時
-        else
-        {
-            // 保持中のreceiveObjがある場合
-            if (selectReceiveObj.Count != 0)
-            {
                 foreach (IPlayerSelectRayReceive receive in selectReceiveObj)
                 {
                     receive.NotHit();
                 }
                 selectReceiveObj.Clear();
             }
+        }
+        // 何もヒットしなかった時
+        else
+        {
+            if (selectReceiveObj.Count == 0) return;
+
+            // 保持中のreceiveObjがある場合
+            foreach (IPlayerSelectRayReceive receive in selectReceiveObj)
+            {
+                receive.NotHit();
+            }
+            selectReceiveObj.Clear();
         }
     }
 }
