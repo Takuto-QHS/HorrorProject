@@ -4,6 +4,8 @@ using UnityEngine;
 using StarterAssets;
 using Cinemachine;
 using UnityEngine.InputSystem;
+using Cysharp.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -72,5 +74,14 @@ public class GameManager : MonoBehaviour
     public void OneStepProgressing()
     {
         floorStateManager.OneStepProgressing();
+    }
+
+    /// <summary>
+    /// UniTaskでシーン遷移＆遷移後にログ表示
+    /// </summary>
+    public async void ChangeScene(string sceneName)
+    {
+        await SceneManager.LoadSceneAsync(sceneName);       // シーンを裏でロードし、完了したら遷移
+        Debug.Log("Scene変更：" + sceneName);               // 遷移後にログ表示
     }
 }
