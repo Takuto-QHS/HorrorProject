@@ -10,6 +10,8 @@ using UnityEngine;
 
 public class FlashMaterialComponent : MonoBehaviour
 {
+    const float RESET_ALPHA_VALUE = 0.0f;
+
     [SerializeField]
     Color flashColor = Color.white;
     [SerializeField]
@@ -73,6 +75,15 @@ public class FlashMaterialComponent : MonoBehaviour
         foreach (Material material in target_material)
         {
             material.SetColor("_EmissionColor", new Color(flashColor.r * alpha, flashColor.g * alpha, flashColor.b * alpha));
+        }
+    }
+
+    public void ResetFlashMaterialEmission()
+    {
+        // ñæñ≈èÛë‘Ç0Ç…ÉäÉZÉbÉg
+        foreach (Material material in target_material)
+        {
+            material.SetColor("_EmissionColor", new Color(RESET_ALPHA_VALUE, RESET_ALPHA_VALUE, RESET_ALPHA_VALUE));
         }
     }
 }

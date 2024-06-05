@@ -14,6 +14,8 @@ public class SelectRayOutlineComponent : IPlayerSelectRayReceive
 {
     private const float DEFAULT_OUTLINE_WIDTH = 0.0f;
 
+    public bool isDisplay = true ;  // 外部からこの機能のオン・オフを弄る用
+
     [SerializeField]
     private Color outlineColor = Color.cyan;
     [SerializeField]
@@ -31,6 +33,7 @@ public class SelectRayOutlineComponent : IPlayerSelectRayReceive
 
     public override void FirstHit()
     {
+        if (!isDisplay) return;
         SwitchOutline(true);
     }
 
@@ -38,6 +41,7 @@ public class SelectRayOutlineComponent : IPlayerSelectRayReceive
 
     public override void NotHit()
     {
+        if (!isDisplay) return;
         SwitchOutline(false);
     }
 

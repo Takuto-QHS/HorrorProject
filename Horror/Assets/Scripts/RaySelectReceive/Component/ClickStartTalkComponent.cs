@@ -12,18 +12,18 @@ public class ClickStartTalkComponent : IPlayerSelectRayReceive
     [SerializeField]
     private string strMessage = null;
 
-    private bool isTalkNow = false;
+    public bool isTalking = false;      // 話せるか用フラグ
 
     public override void HitNow()
     {
-        if (Input.GetMouseButtonDown(0) && !isTalkNow)
+        if (Input.GetMouseButtonDown(0) && !isTalking)
             StartTalk();
     }
 
     private void StartTalk()
     {
         // 準備
-        isTalkNow = true;   // 会話中、再度会話を開始させない
+        isTalking = true;   // 会話中、再度会話を開始させない
         GameManager.gameManager.LockPlayer();
 
         // 会話開始
@@ -32,7 +32,7 @@ public class ClickStartTalkComponent : IPlayerSelectRayReceive
 
     public void FinishTalk()
     {
-        isTalkNow = false;  // 再度会話可能
+        isTalking = false;  // 再度会話可能
         GameManager.gameManager.UnLockPlayer();
     }
 }

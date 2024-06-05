@@ -119,10 +119,38 @@ public class FungusExtension : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// Rayを当てた際のOutline表示オンオフスイッチ用
     /// </summary>
-    public void ChangeScene()
+    public void SwitchDisplaySelectRayOutline(bool isDisplay,SelectRayOutlineComponent script)
     {
+        script.isDisplay = isDisplay;
+        SwitchEnableScript(isDisplay, script);
+    }
 
+    /// <summary>
+    /// FlashMaterial機能のオンオフスイッチ用
+    /// </summary>
+    public void SwitchEnableFlashMaterial(bool isEnable,FlashMaterialComponent script)
+    {
+        if(!isEnable) script.ResetFlashMaterialEmission();
+        SwitchEnableScript(isEnable, script);
+    }
+
+    /// <summary>
+    /// StartTalk機能のオンオフスイッチ用
+    /// ※ScriptのEnableを切るだけでは貫通して動いてしまう為、isTalkingで止めています
+    /// </summary>
+    public void SwitchEnableStartTalk(bool isEnable, ClickStartTalkComponent script)
+    {
+        script.isTalking = !isEnable;
+        SwitchEnableScript(isEnable, script);
+    }
+
+    /// <summary>
+    /// 指定スクリプトの機能オンオフスイッチ
+    /// </summary>
+    public void SwitchEnableScript(bool isEnable, MonoBehaviour script)
+    {
+        script.enabled = isEnable;
     }
 }
