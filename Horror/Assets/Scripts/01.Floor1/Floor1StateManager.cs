@@ -15,6 +15,7 @@ public class Floor1StateManager : FloorStateManagerTemplate
     private enum STATE_FLOOR_1
     {
         OPENING,
+        DOOR_OPEN,
         BOY_CUT_1,
         BOY_CUT_2,
         GENERATOR_BOOT,
