@@ -16,6 +16,7 @@ public class Floor1StateManager : FloorStateManagerTemplate
     {
         OPENING,
         DOOR_OPEN,
+        BOTTLE_FALL,
         BOY_CUT_1,
         BOY_CUT_2,
         GENERATOR_BOOT,
