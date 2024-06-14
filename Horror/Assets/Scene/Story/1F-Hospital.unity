@@ -4612,7 +4612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &116118597
 Transform:
   m_ObjectHideFlags: 0
@@ -20339,14 +20339,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583707857}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 1.69, z: 0.849}
+  m_LocalRotation: {x: -0.686109, y: 0.13630033, z: 0.13705388, w: 0.70135075}
+  m_LocalPosition: {x: -0.0354, y: 1.7167, z: 0.7556}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1315697208}
   m_Father: {fileID: 116118597}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -88.763, y: 8.315, z: 13.976}
 --- !u!114 &583707859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20438,7 +20438,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -38169,7 +38169,7 @@ MonoBehaviour:
   - {fileID: 116118596}
   - {fileID: 125619537}
   - {fileID: 1382005822}
-  stateFloor1: 6
+  stateFloor1: 4
 --- !u!4 &1145667720 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 84b055dcf460da44ba30fb5db972e6aa,
@@ -44819,15 +44819,75 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8063744494308977659, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7956919756574189296, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7774250218750726213, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4815152262335523322, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2199018661283750487, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1806043202352836470, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f5eeacf710f581e428788a073e9c648e,
         type: 3}
       propertyPath: m_Name
       value: HAOLAN
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4320098735860348617, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511528530070877055, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 49440bfcf2002e74d9d9d58acbae333b, type: 2}
     - target: {fileID: 8339035342197712857, guid: f5eeacf710f581e428788a073e9c648e,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898966374186242943, guid: f5eeacf710f581e428788a073e9c648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -55890,6 +55950,7 @@ GameObject:
   - component: {fileID: 1646701029}
   - component: {fileID: 1646701028}
   - component: {fileID: 1646701027}
+  - component: {fileID: 1646701030}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -55922,8 +55983,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1646701029}
-  selectedCommands: []
+  - {fileID: 1646701014}
+  selectedCommands:
+  - {fileID: 1646701030}
   variables: []
   description: 
   stepPause: 0
@@ -55965,6 +56027,7 @@ MonoBehaviour:
   - {fileID: 1646701018}
   - {fileID: 1646701021}
   - {fileID: 1646701016}
+  - {fileID: 1646701030}
   suppressAllAutoSelections: 0
 --- !u!4 &1646701015
 Transform:
@@ -56519,13 +56582,41 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 53
   blockName: Door_Open (Copy)
   description: 
   eventHandler: {fileID: 1646701028}
   commandList:
   - {fileID: 1646701027}
   suppressAllAutoSelections: 0
+--- !u!114 &1646701030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646701012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1363860058}
+  targetComponentAssemblyName: GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: GameManager
+  targetMethod: UnLockPlayer
+  targetMethodText: 'UnLockPlayer (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!1001 &1647181239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67192,7 +67283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1402138181}
+  selectedFlowchart: {fileID: 1646701013}
 --- !u!4 &1976769966
 Transform:
   m_ObjectHideFlags: 1
@@ -72451,7 +72542,7 @@ Transform:
   m_GameObject: {fileID: 2100609325}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.85, z: 0.604}
+  m_LocalPosition: {x: 0, y: 3.85, z: 0.325}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
