@@ -38169,7 +38169,7 @@ MonoBehaviour:
   - {fileID: 116118596}
   - {fileID: 125619537}
   - {fileID: 1382005822}
-  stateFloor1: 0
+  stateFloor1: 6
 --- !u!4 &1145667720 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 84b055dcf460da44ba30fb5db972e6aa,
@@ -45927,7 +45927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1402138175
 Transform:
   m_ObjectHideFlags: 0
@@ -46145,7 +46145,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 66
-    y: 69
+    y: 68
     width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -46188,9 +46188,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1402138197}
+  - {fileID: 1402138180}
   selectedCommands:
-  - {fileID: 1402138195}
+  - {fileID: 1402138178}
   variables: []
   description: 
   stepPause: 0
