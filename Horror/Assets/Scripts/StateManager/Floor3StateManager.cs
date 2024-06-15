@@ -7,28 +7,21 @@ using System;
 /// 各階層の進行状況処理を継承元の関数を使用して実装する
 /// </summary>
 
-public class Floor1StateManager : FloorStateManagerTemplate
+public class Floor3StateManager : FloorStateManagerTemplate
 {
     /// <summary>
     /// このChapter内の進行度Enum
     /// </summary>
-    private enum STATE_FLOOR_1
+    private enum STATE_FLOOR_3
     {
-        OPENING,
-        DOOR_OPEN,
-        BOTTLE_FALL,
-        BOY_CUT_1,
-        BOY_CUT_2,
-        GENERATOR_BOOT,
-        ELEBATOR_TORRIGER
     }
     [SerializeField]
-    private STATE_FLOOR_1 stateFloor1;
+    private STATE_FLOOR_3 stateFloor3;
 
     void Start()
     {
         //list[0].SetActive(true);                    // 本番用
-        list[(int)stateFloor1].SetActive(true);     // テスト用
+        list[(int)stateFloor3].SetActive(true);     // テスト用
     }
 
     /// <summary>
@@ -36,7 +29,7 @@ public class Floor1StateManager : FloorStateManagerTemplate
     /// </summary>
     public override void OneStepProgressing(int nowStateIndex = 0)
     {
-        base.OneStepProgressing((int)stateFloor1);
-        stateFloor1 = (STATE_FLOOR_1)Enum.ToObject(typeof(STATE_FLOOR_1), (int)stateFloor1 + 1);
+        base.OneStepProgressing((int)stateFloor3);
+        stateFloor3 = (STATE_FLOOR_3)Enum.ToObject(typeof(STATE_FLOOR_3), (int)stateFloor3 + 1);
     }
 }
