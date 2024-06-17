@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using Cysharp.Threading.Tasks;
 
-public class TriggerStartComponent : MonoBehaviour
+public class TriggerObjAddImpulseComponent : MonoBehaviour
 {
     [SerializeField]
     private Rigidbody rBObj;
