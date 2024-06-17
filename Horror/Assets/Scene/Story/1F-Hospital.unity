@@ -19202,7 +19202,7 @@ MonoBehaviour:
   - {fileID: 1350282124}
   - {fileID: 2035384760}
   - {fileID: 1382005822}
-  stateFloor1: 0
+  stateFloor1: 4
 --- !u!1001 &1148863973
 PrefabInstance:
   m_ObjectHideFlags: 0
