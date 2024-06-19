@@ -44,8 +44,9 @@ public class GameManager : MonoBehaviour
     public void LockPlayer()
     {
         if (!playerInput) return;
-        playerInput.moveInputForMovement = false;
-        playerInput.cursorInputForLook = false;
+        playerInput.moveInputForMovement = false;   // インプット無効化
+        playerInput.cursorInputForLook = false;     // インプット無効化
+        firstPersonCtr.ResetMoveLookValue();        // Update関数で勝手に動かないようにする
     }
 
     /// <summary>

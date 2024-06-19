@@ -139,7 +139,17 @@ namespace StarterAssets
 			_cinemachineTargetPitch = value;
         }
 
-		private void CameraRotation()
+		/// <summary>
+		/// MoveとRotationの値を0にする。
+		/// ※インプットLock中、値がリセットされないままUpdate関数で動いてしまう為作成
+		/// </summary>
+        public void ResetMoveLookValue()
+        {
+			_input.move = new Vector2();
+			_input.look = new Vector2();
+		}
+
+        private void CameraRotation()
 		{
 			// if there is an input
 			if (_input.look.sqrMagnitude >= _threshold)
