@@ -17,6 +17,10 @@ public class Floor2StateManager : FloorStateManagerTemplate
         ELEVATOR_START,
         ELEVATOR_SHUTDOWN,
         GHOSTCUT_01,
+        GHOSTCUT_02,
+        GENERATOR_BOOT,
+        GHOSTATTACKED,
+        ESCAPE,
         ELEVATOR_END
     }
     [SerializeField]
