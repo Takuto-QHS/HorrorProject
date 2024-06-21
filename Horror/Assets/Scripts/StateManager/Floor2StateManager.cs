@@ -14,7 +14,14 @@ public class Floor2StateManager : FloorStateManagerTemplate
     /// </summary>
     private enum STATE_FLOOR_2
     {
-        
+        ELEVATOR_START,
+        ELEVATOR_SHUTDOWN,
+        GHOSTCUT_01,
+        GHOSTCUT_02,
+        GENERATOR_BOOT,
+        BACK_THE_ROAD,
+        ESCAPE,
+        ELEVATOR_END
     }
     [SerializeField]
     private STATE_FLOOR_2 stateFloor2;

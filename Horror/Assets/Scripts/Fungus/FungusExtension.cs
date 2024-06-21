@@ -41,7 +41,7 @@ public class FungusExtension : MonoBehaviour
     /// <param name="isCursol"></param>
     public void ShowCursol(bool isCursol)
     {
-        Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
+        GameManager.ShowCursol(isCursol);
     }
 
     /// <summary>

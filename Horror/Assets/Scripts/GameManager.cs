@@ -44,8 +44,9 @@ public class GameManager : MonoBehaviour
     public void LockPlayer()
     {
         if (!playerInput) return;
-        playerInput.moveInputForMovement = false;
-        playerInput.cursorInputForLook = false;
+        playerInput.moveInputForMovement = false;   // インプット無効化
+        playerInput.cursorInputForLook = false;     // インプット無効化
+        firstPersonCtr.ResetMoveLookValue();        // Update関数で勝手に動かないようにする
     }
 
     /// <summary>
@@ -79,9 +80,17 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// UniTaskでシーン遷移＆遷移後にログ表示
     /// </summary>
-    public async void ChangeScene(string sceneName)
+    static public async void ChangeScene(string sceneName)
     {
         await SceneManager.LoadSceneAsync(sceneName);       // シーンを裏でロードし、完了したら遷移
         Debug.Log("Scene変更：" + sceneName);               // 遷移後にログ表示
+    }
+
+    /// <summary>
+    /// カーソルのオンオフ
+    /// </summary>
+    static public void ShowCursol(bool isCursol)
+    {
+        Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
     }
 }
