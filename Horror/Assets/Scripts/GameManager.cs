@@ -80,9 +80,17 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// UniTaskでシーン遷移＆遷移後にログ表示
     /// </summary>
-    public async void ChangeScene(string sceneName)
+    static public async void ChangeScene(string sceneName)
     {
         await SceneManager.LoadSceneAsync(sceneName);       // シーンを裏でロードし、完了したら遷移
         Debug.Log("Scene変更：" + sceneName);               // 遷移後にログ表示
+    }
+
+    /// <summary>
+    /// カーソルのオンオフ
+    /// </summary>
+    static public void ShowCursol(bool isCursol)
+    {
+        Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
     }
 }

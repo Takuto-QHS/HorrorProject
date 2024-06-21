@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Story/2F-Hospital.unity
     guid: 8120aeca172ee4747bd0a1fcc8f63702
+  - enabled: 1
+    path: Assets/Scene/Story/GameOver.unity
+    guid: fffa7ad83b685b3448006f5ef4acaac3
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}

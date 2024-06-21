@@ -19,7 +19,7 @@ public class Floor2StateManager : FloorStateManagerTemplate
         GHOSTCUT_01,
         GHOSTCUT_02,
         GENERATOR_BOOT,
-        GHOSTATTACKED,
+        BACK_THE_ROAD,
         ESCAPE,
         ELEVATOR_END
     }
