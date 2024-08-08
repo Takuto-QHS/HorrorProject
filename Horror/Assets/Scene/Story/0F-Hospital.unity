@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.027831208, g: 0.051598053, b: 0.06507775, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -68,9 +66,6 @@ LightmapSettings:
       type: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 0
-    m_FinalGather: 1
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
     m_MixedBakeMode: 1
     m_BakeBackend: 0
@@ -152,9 +147,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2331567}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 6.22
@@ -204,8 +198,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &2331569
 Transform:
   m_ObjectHideFlags: 0
@@ -478,9 +476,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11822814}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 8.02
@@ -530,8 +527,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &11822816
 Transform:
   m_ObjectHideFlags: 0
@@ -1246,7 +1247,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0.1000081, z: 0}
 --- !u!95 &44915118
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1260,6 +1261,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1887,7 +1889,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 525b9b37e28c18c44bb9ac1567164443, type: 3}
-      propertyPath: m_Materials.Array.data[2]
+      propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: da7a7706682f4634796336b13f691a7e, type: 2}
     m_RemovedComponents: []
@@ -1972,7 +1974,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 4bb27e69e5844ad41a212b7ae2a3db1e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -2086,7 +2088,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: ab34b340a656ce34c8ca8f7354c04fce, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -2177,6 +2179,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3eaae1750fa28974581bcef3e55b0052, type: 3}
+  m_Resource: {fileID: 8300000, guid: 3eaae1750fa28974581bcef3e55b0052, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.564
   m_Pitch: 0.4
@@ -2507,7 +2510,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -2605,7 +2608,7 @@ PrefabInstance:
       value: .707072794
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: bd05ec93ab94f364fb60619fd1f04653, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -3437,7 +3440,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -3797,7 +3800,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &172460728
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3811,6 +3814,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -3818,7 +3822,7 @@ Animator:
   m_WriteDefaultValuesOnDisable: 0
 --- !u!95 &172460729
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3832,6 +3836,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -4461,7 +4466,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: dfb4a595a24e1f14b9d5229ca0b5ed91, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 10ecac8b3265fde429d54fac1965ed80, type: 2}
     m_RemovedComponents: []
@@ -4898,7 +4903,7 @@ PrefabInstance:
       value: .00021451959
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: c5b23923553254244aa1270acf852199, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0acf6535c943020419146deb54e176e7, type: 2}
     m_RemovedComponents: []
@@ -5032,7 +5037,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -5095,7 +5100,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -5850,7 +5855,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 67c506bb6cd81e6468fe475ab3f5e35b, type: 3}
-      propertyPath: m_Materials.Array.data[2]
+      propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: 611c43a420bdbe641b986666ce80c4ca, type: 2}
     m_RemovedComponents: []
@@ -6158,7 +6163,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 2265f3d9814e69643a19276e274e3334, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -8883,7 +8888,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3ae4d3f6b584f654eaa2f595c1b6e68b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0acf6535c943020419146deb54e176e7, type: 2}
     m_RemovedComponents: []
@@ -9457,7 +9462,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -9522,7 +9527,7 @@ PrefabInstance:
       value: -.284272552
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 574e1f8527c75e443a7f4ce6d8adb0c2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -9913,7 +9918,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &451260341
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9927,6 +9932,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -10179,9 +10185,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453869143}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 6.22
@@ -10231,8 +10236,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &453869145
 Transform:
   m_ObjectHideFlags: 0
@@ -11528,6 +11537,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12213,7 +12225,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 24343cc6aae44144db259cec49fae803, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -12589,7 +12601,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: PlayTimeLine
   targetMethodText: 'PlayTimeLine (PlayableDirector): Void'
@@ -12634,7 +12646,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ChangeCamBlendSpead
   targetMethodText: 'ChangeCamBlendSpead (Single): Void'
@@ -12709,7 +12721,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: DestroyObj
   targetMethodText: 'DestroyObj (GameObject): Void'
@@ -12754,7 +12766,7 @@ MonoBehaviour:
   targetObject: {fileID: 1363860058}
   targetComponentAssemblyName: GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: GameManager
   targetMethod: UnLockPlayer
   targetMethodText: 'UnLockPlayer (): Void'
@@ -12782,7 +12794,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: OneStepProgressing
   targetMethodText: 'OneStepProgressing (): Void'
@@ -12839,7 +12851,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableFlashMaterial
   targetMethodText: 'SwitchEnableFlashMaterial (Boolean, FlashMaterialComponent):
@@ -12902,7 +12914,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchDisplaySelectRayOutline
   targetMethodText: 'SwitchDisplaySelectRayOutline (Boolean, SelectRayOutlineComponent):
@@ -12980,7 +12992,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableStartTalk
   targetMethodText: 'SwitchEnableStartTalk (Boolean, ClickStartTalkComponent): Void'
@@ -13069,7 +13081,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SetAnimation
   targetMethodText: 'SetAnimation (Animator, String, Single): Void'
@@ -13269,7 +13281,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SetAnimation
   targetMethodText: 'SetAnimation (Animator, String, Single): Void'
@@ -13348,7 +13360,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableStartTalk
   targetMethodText: 'SwitchEnableStartTalk (Boolean, ClickStartTalkComponent): Void'
@@ -13410,7 +13422,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableFlashMaterial
   targetMethodText: 'SwitchEnableFlashMaterial (Boolean, FlashMaterialComponent):
@@ -13473,7 +13485,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchDisplaySelectRayOutline
   targetMethodText: 'SwitchDisplaySelectRayOutline (Boolean, SelectRayOutlineComponent):
@@ -14068,7 +14080,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -14595,7 +14607,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 053c7ed3974620e46ac7977386023c98, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -14721,7 +14733,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: ddf109961cbb09e49a9fcea963f57313, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -15361,7 +15373,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -15499,7 +15511,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -15524,6 +15536,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15702,7 +15717,7 @@ PrefabInstance:
       value: 0.66580164
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 1906bf674b0e8ae44a4d5879cb29ebb2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -16261,7 +16276,7 @@ PrefabInstance:
       value: .707072794
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: bd05ec93ab94f364fb60619fd1f04653, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -16530,7 +16545,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SetAnimation
   targetMethodText: 'SetAnimation (Animator, String, Single): Void'
@@ -16609,7 +16624,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ChangeCamBlendSpead
   targetMethodText: 'ChangeCamBlendSpead (Single): Void'
@@ -16771,7 +16786,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ResetCamera
   targetMethodText: 'ResetCamera (): Void'
@@ -16910,7 +16925,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ChangeCamera
   targetMethodText: 'ChangeCamera (CinemachineVirtualCamera): Void'
@@ -17033,7 +17048,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: OneStepProgressing
   targetMethodText: 'OneStepProgressing (): Void'
@@ -17061,7 +17076,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: DestroyObj
   targetMethodText: 'DestroyObj (GameObject): Void'
@@ -17106,7 +17121,7 @@ MonoBehaviour:
   targetObject: {fileID: 1363860058}
   targetComponentAssemblyName: GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: GameManager
   targetMethod: UnLockPlayer
   targetMethodText: 'UnLockPlayer (): Void'
@@ -17134,7 +17149,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: DestroyObj
   targetMethodText: 'DestroyObj (GameObject): Void'
@@ -17208,7 +17223,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableStartTalk
   targetMethodText: 'SwitchEnableStartTalk (Boolean, ClickStartTalkComponent): Void'
@@ -17270,7 +17285,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableFlashMaterial
   targetMethodText: 'SwitchEnableFlashMaterial (Boolean, FlashMaterialComponent):
@@ -17333,7 +17348,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchDisplaySelectRayOutline
   targetMethodText: 'SwitchDisplaySelectRayOutline (Boolean, SelectRayOutlineComponent):
@@ -17533,7 +17548,7 @@ PrefabInstance:
       value: 3.12029588e-05
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: b3ae8388d004a4640b14e2d80d57c442, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0acf6535c943020419146deb54e176e7, type: 2}
     m_RemovedComponents: []
@@ -17635,7 +17650,7 @@ PrefabInstance:
       value: -0.4777155
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 66a08c7aca913a44a8314b5eafa9498e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -17867,7 +17882,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -17916,7 +17931,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 28a4235ebf661864da3d7245ad19beda, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 40f71506bfb01544fa8c86b8f952bdb6, type: 2}
     - target: {fileID: 10800000, guid: 28a4235ebf661864da3d7245ad19beda, type: 3}
@@ -18105,7 +18120,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -18162,7 +18177,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 2265f3d9814e69643a19276e274e3334, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -18516,7 +18531,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 2265f3d9814e69643a19276e274e3334, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -19157,9 +19172,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852616685}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 0
-  m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 8
   m_Range: 15
@@ -19209,8 +19223,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &852744238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 845ee45dc7dd3ca4b892f8535ac24216,
@@ -19400,7 +19418,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -19733,7 +19751,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ChangeCamera
   targetMethodText: 'ChangeCamera (CinemachineVirtualCamera): Void'
@@ -19939,7 +19957,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ResetCamera
   targetMethodText: 'ResetCamera (): Void'
@@ -20014,7 +20032,7 @@ MonoBehaviour:
   targetObject: {fileID: 153399721}
   targetComponentAssemblyName: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: ClickStartTalkComponent
   targetMethod: FinishTalk
   targetMethodText: 'FinishTalk (): Void'
@@ -20042,7 +20060,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ChangeCamBlendSpead
   targetMethodText: 'ChangeCamBlendSpead (Single): Void'
@@ -20435,9 +20453,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905637388}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 8.02
@@ -20487,8 +20504,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &905637390
 Transform:
   m_ObjectHideFlags: 0
@@ -20943,7 +20964,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -0.001177486, y: 0.0002618698, z: -0.0003267661}
 --- !u!95 &940378342
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -20957,6 +20978,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -21558,7 +21580,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -21615,7 +21637,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -21674,7 +21696,7 @@ PrefabInstance:
       value: -0.7068331
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2cae7987f6b134845ac406835c2b227b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -21723,6 +21745,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22058,6 +22083,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b57fd343dcbc66c448700d297e6a4cef, type: 3}
+  m_Resource: {fileID: 8300000, guid: b57fd343dcbc66c448700d297e6a4cef, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -22347,7 +22373,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -22838,7 +22864,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -23747,9 +23773,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067773066}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 5.22
@@ -23799,8 +23824,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1067773068
 Transform:
   m_ObjectHideFlags: 0
@@ -24330,7 +24359,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 4bb27e69e5844ad41a212b7ae2a3db1e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -24670,7 +24699,7 @@ Transform:
   m_GameObject: {fileID: 1104368798}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.52511, y: 17.16, z: -18.35}
+  m_LocalPosition: {x: 21.52511, y: 17.16, z: 0.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25479,6 +25508,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -25685,9 +25717,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168469538}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 1, g: 0.9235294, b: 0.78676474, a: 1}
   m_Intensity: 0.85
   m_Range: 10
@@ -25737,8 +25768,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1168469540
 Transform:
   m_ObjectHideFlags: 0
@@ -25803,9 +25838,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168510258}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 10
@@ -25855,8 +25889,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1168510260
 Transform:
   m_ObjectHideFlags: 0
@@ -26099,7 +26137,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: e5228629531f2fc439cf50f3af0fafc7, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -26194,6 +26232,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -26333,9 +26372,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185519605}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 8.02
@@ -26385,8 +26423,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1185519607
 Transform:
   m_ObjectHideFlags: 0
@@ -27175,7 +27217,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3ae4d3f6b584f654eaa2f595c1b6e68b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0acf6535c943020419146deb54e176e7, type: 2}
     m_RemovedComponents: []
@@ -27381,7 +27423,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -27651,7 +27693,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -27950,6 +27992,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -28374,7 +28417,7 @@ PrefabInstance:
       value: 0.03154163
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2a2be0575b3fcc941bc7f098ed5deafa, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: d953b998ddb42aa4da486baf3218b0f1, type: 2}
     m_RemovedComponents: []
@@ -28435,7 +28478,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: ddf109961cbb09e49a9fcea963f57313, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -28771,9 +28814,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315701533}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 8.02
@@ -28823,8 +28865,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1315701535
 Transform:
   m_ObjectHideFlags: 0
@@ -29532,7 +29578,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 525b9b37e28c18c44bb9ac1567164443, type: 3}
-      propertyPath: m_Materials.Array.data[2]
+      propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: da7a7706682f4634796336b13f691a7e, type: 2}
     m_RemovedComponents: []
@@ -29591,7 +29637,7 @@ PrefabInstance:
       value: -0.47420278
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3b01b81dfd425ea44a2a844b09281e36, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -31827,7 +31873,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 2265f3d9814e69643a19276e274e3334, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -31971,9 +32017,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396639946}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 13.83
@@ -32023,8 +32068,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1396639948
 Transform:
   m_ObjectHideFlags: 0
@@ -32112,7 +32161,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -32190,7 +32239,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SetAnimation
   targetMethodText: 'SetAnimation (Animator, String, Single): Void'
@@ -32287,7 +32336,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: PlayTimeLine
   targetMethodText: 'PlayTimeLine (PlayableDirector): Void'
@@ -32332,7 +32381,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: DestroyObj
   targetMethodText: 'DestroyObj (GameObject): Void'
@@ -32464,7 +32513,7 @@ MonoBehaviour:
   targetObject: {fileID: 1363860058}
   targetComponentAssemblyName: GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: GameManager
   targetMethod: UnLockPlayer
   targetMethodText: 'UnLockPlayer (): Void'
@@ -32492,7 +32541,7 @@ MonoBehaviour:
   targetObject: {fileID: 1363860058}
   targetComponentAssemblyName: GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: GameManager
   targetMethod: ChangeScene
   targetMethodText: 'ChangeScene (String): Void'
@@ -32557,7 +32606,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SetAnimation
   targetMethodText: 'SetAnimation (Animator, String, Single): Void'
@@ -32678,7 +32727,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableFlashMaterial
   targetMethodText: 'SwitchEnableFlashMaterial (Boolean, FlashMaterialComponent):
@@ -32741,7 +32790,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchDisplaySelectRayOutline
   targetMethodText: 'SwitchDisplaySelectRayOutline (Boolean, SelectRayOutlineComponent):
@@ -32848,7 +32897,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableStartTalk
   targetMethodText: 'SwitchEnableStartTalk (Boolean, ClickStartTalkComponent): Void'
@@ -32910,7 +32959,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SetAnimation
   targetMethodText: 'SetAnimation (Animator, String, Single): Void'
@@ -33153,9 +33202,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415913860}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 13.83
@@ -33205,8 +33253,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1415913862
 Transform:
   m_ObjectHideFlags: 0
@@ -33871,6 +33923,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -34078,7 +34133,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 306fde77f10bf8d44bcd385d5d892492, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: da7a7706682f4634796336b13f691a7e, type: 2}
     m_RemovedComponents: []
@@ -34149,7 +34204,7 @@ PrefabInstance:
       value: 0.15641367
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 5dc5fab5ef3f86a48bdf059d7f772ac3, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -36043,9 +36098,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568539346}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 8.02
@@ -36095,8 +36149,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!114 &1568539349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37296,7 +37354,7 @@ PrefabInstance:
       value: .707072794
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: bd05ec93ab94f364fb60619fd1f04653, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -37377,7 +37435,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 9a33d95dc11b88f4296583fd304ba9a1, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0acf6535c943020419146deb54e176e7, type: 2}
     m_RemovedComponents: []
@@ -37474,9 +37532,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609748576}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.85
   m_Range: 8.02
@@ -37526,8 +37583,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1609748578
 Transform:
   m_ObjectHideFlags: 0
@@ -37670,6 +37731,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -37974,7 +38038,7 @@ MonoBehaviour:
   targetObject: {fileID: 1363860058}
   targetComponentAssemblyName: GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: GameManager
   targetMethod: LockPlayer
   targetMethodText: 'LockPlayer (): Void'
@@ -38002,7 +38066,7 @@ MonoBehaviour:
   targetObject: {fileID: 1363860058}
   targetComponentAssemblyName: GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: GameManager
   targetMethod: UnLockPlayer
   targetMethodText: 'UnLockPlayer (): Void'
@@ -38057,7 +38121,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ShowCursol
   targetMethodText: 'ShowCursol (Boolean): Void'
@@ -38300,7 +38364,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: PlayTimeLine
   targetMethodText: 'PlayTimeLine (PlayableDirector): Void'
@@ -38345,7 +38409,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: PlayTimeLine
   targetMethodText: 'PlayTimeLine (PlayableDirector): Void'
@@ -38408,7 +38472,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: DestroyObj
   targetMethodText: 'DestroyObj (GameObject): Void'
@@ -38453,7 +38517,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SetPlayerCameraRotation
   targetMethodText: 'SetPlayerCameraRotation (Single, Single): Void'
@@ -38515,7 +38579,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: OneStepProgressing
   targetMethodText: 'OneStepProgressing (): Void'
@@ -38558,7 +38622,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableFlashMaterial
   targetMethodText: 'SwitchEnableFlashMaterial (Boolean, FlashMaterialComponent):
@@ -38621,7 +38685,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchDisplaySelectRayOutline
   targetMethodText: 'SwitchDisplaySelectRayOutline (Boolean, SelectRayOutlineComponent):
@@ -38713,7 +38777,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableStartTalk
   targetMethodText: 'SwitchEnableStartTalk (Boolean, ClickStartTalkComponent): Void'
@@ -38930,7 +38994,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a275c72fb63e7ab4abaf740b58a30db9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -39202,7 +39266,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: PlayTimeLine
   targetMethodText: 'PlayTimeLine (PlayableDirector): Void'
@@ -39274,7 +39338,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: DestroyObj
   targetMethodText: 'DestroyObj (GameObject): Void'
@@ -39349,7 +39413,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ChangeCamBlendSpead
   targetMethodText: 'ChangeCamBlendSpead (Single): Void'
@@ -39409,7 +39473,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableFlashMaterial
   targetMethodText: 'SwitchEnableFlashMaterial (Boolean, FlashMaterialComponent):
@@ -39472,7 +39536,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchDisplaySelectRayOutline
   targetMethodText: 'SwitchDisplaySelectRayOutline (Boolean, SelectRayOutlineComponent):
@@ -39564,7 +39628,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableStartTalk
   targetMethodText: 'SwitchEnableStartTalk (Boolean, ClickStartTalkComponent): Void'
@@ -39626,7 +39690,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SetAnimation
   targetMethodText: 'SetAnimation (Animator, String, Single): Void'
@@ -39747,7 +39811,7 @@ MonoBehaviour:
   targetObject: {fileID: 1363860058}
   targetComponentAssemblyName: GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: GameManager
   targetMethod: UnLockPlayer
   targetMethodText: 'UnLockPlayer (): Void'
@@ -39785,6 +39849,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 83c3762e941e4b4468291b12083aba60, type: 3}
+  m_Resource: {fileID: 8300000, guid: 83c3762e941e4b4468291b12083aba60, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.536
   m_Pitch: 1
@@ -39954,7 +40019,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1652198305
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -39968,6 +40033,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -40617,11 +40683,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: ddf109961cbb09e49a9fcea963f57313, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: da7a7706682f4634796336b13f691a7e, type: 2}
     - target: {fileID: 2300002, guid: ddf109961cbb09e49a9fcea963f57313, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -40970,6 +41036,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -41826,11 +41895,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: b93c6c71061f6ef49bae00f3991af164, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: da7a7706682f4634796336b13f691a7e, type: 2}
     - target: {fileID: 2300002, guid: b93c6c71061f6ef49bae00f3991af164, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -41895,7 +41964,7 @@ PrefabInstance:
       value: -.639222801
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: e5228629531f2fc439cf50f3af0fafc7, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -42616,7 +42685,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1807112376
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -42630,6 +42699,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -42976,6 +43046,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -43049,6 +43122,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -43346,7 +43420,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a090abaef3e8509418758c1b5c1e165d, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: da7a7706682f4634796336b13f691a7e, type: 2}
     m_RemovedComponents: []
@@ -43448,7 +43522,7 @@ PrefabInstance:
       value: 0.50000507
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: fe63e4498c3df914aa3a798a312b46c6, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -44207,9 +44281,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870351554}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.63235295, g: 0.8174443, b: 1, a: 1}
   m_Intensity: 0.8
   m_Range: 6.22
@@ -44259,8 +44332,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1870351556
 Transform:
   m_ObjectHideFlags: 0
@@ -44434,6 +44511,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -44736,7 +44816,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3ae4d3f6b584f654eaa2f595c1b6e68b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0acf6535c943020419146deb54e176e7, type: 2}
     m_RemovedComponents: []
@@ -44913,7 +44993,7 @@ PrefabInstance:
       value: -0.7225821
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2a2be0575b3fcc941bc7f098ed5deafa, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: b9f3e7d2d02c9ba4180930649ea0ddab, type: 2}
     m_RemovedComponents: []
@@ -45041,11 +45121,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: ddf109961cbb09e49a9fcea963f57313, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: da7a7706682f4634796336b13f691a7e, type: 2}
     - target: {fileID: 2300002, guid: ddf109961cbb09e49a9fcea963f57313, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -45123,12 +45203,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!114 &1918915870 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9018249871969862650, guid: 2d3a85ecde41a8246a79669975912b74,
@@ -45309,7 +45389,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 2265f3d9814e69643a19276e274e3334, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -45517,7 +45597,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3443e62170e41c244aa6495cae863595, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -45994,7 +46074,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: bffce15e152f6bc4ebdfd606f4f344b0, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -46102,6 +46182,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -46528,7 +46611,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 2265f3d9814e69643a19276e274e3334, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b0986e4ce3e75ea4f948f3bc4a6b01e8, type: 2}
     m_RemovedComponents: []
@@ -46581,7 +46664,7 @@ PrefabInstance:
       value: -0.70047575
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 90c31520c0796214f96c693e3a7b9b70, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -46639,6 +46722,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -46905,7 +46989,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -47439,7 +47523,7 @@ PrefabInstance:
       value: .667545915
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: d66370b6d4f3fa6469feb260b0eb51e5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -47492,7 +47576,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 5819aaeb4c3a3e442abeb93155e8dc00, type: 3}
-      propertyPath: m_Materials.Array.data[2]
+      propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: da7a7706682f4634796336b13f691a7e, type: 2}
     m_RemovedComponents: []
@@ -47696,7 +47780,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: PlayTimeLine
   targetMethodText: 'PlayTimeLine (PlayableDirector): Void'
@@ -47840,7 +47924,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ResetCamera
   targetMethodText: 'ResetCamera (): Void'
@@ -47980,7 +48064,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ChangeCamera
   targetMethodText: 'ChangeCamera (CinemachineVirtualCamera): Void'
@@ -48127,7 +48211,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: DestroyObj
   targetMethodText: 'DestroyObj (GameObject): Void'
@@ -48172,7 +48256,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ChangeCamBlendSpead
   targetMethodText: 'ChangeCamBlendSpead (Single): Void'
@@ -48217,7 +48301,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: ChangeCamBlendSpead
   targetMethodText: 'ChangeCamBlendSpead (Single): Void'
@@ -48277,7 +48361,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableFlashMaterial
   targetMethodText: 'SwitchEnableFlashMaterial (Boolean, FlashMaterialComponent):
@@ -48340,7 +48424,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchDisplaySelectRayOutline
   targetMethodText: 'SwitchDisplaySelectRayOutline (Boolean, SelectRayOutlineComponent):
@@ -48432,7 +48516,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableStartTalk
   targetMethodText: 'SwitchEnableStartTalk (Boolean, ClickStartTalkComponent): Void'
@@ -48494,7 +48578,7 @@ MonoBehaviour:
   targetObject: {fileID: 1053050630}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
+  targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SetAnimation
   targetMethodText: 'SetAnimation (Animator, String, Single): Void'
@@ -48590,7 +48674,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 53
   blockName: Door_Open (Copy)
   description: 
   eventHandler: {fileID: 2041082710}
@@ -48694,7 +48778,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0.9999869, z: 0}
 --- !u!95 &2046040869
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -48708,6 +48792,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -48809,7 +48894,7 @@ PrefabInstance:
       value: -0.49998787
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3b01b81dfd425ea44a2a844b09281e36, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -49140,7 +49225,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -49248,6 +49333,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -49518,7 +49606,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &2081748887
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -49532,6 +49620,7 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -50002,6 +50091,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -50466,7 +50558,7 @@ PrefabInstance:
       value: -.724699914
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3da26659e7e6367498e013fd8c3af8e3, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6c77a106bb979ae429d475ac07c3189a, type: 2}
     m_RemovedComponents: []
@@ -50535,7 +50627,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 488f0a72079744143aaa5b713e99c99e, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fee3eb6b2f9fc2449970c17ab66ab3ce, type: 2}
     m_RemovedComponents: []
@@ -50818,7 +50910,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 15f99e84a0ba2f148a00a5632cb3f332, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e34d21c942e8ae34495c4d63ce025da7, type: 2}
     m_RemovedComponents: []
