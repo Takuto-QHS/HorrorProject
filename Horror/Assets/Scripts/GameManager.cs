@@ -78,9 +78,17 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
+    /// FlowChart用呼び出しシーン遷移関数
+    /// </summary>
+    public void ChangeScene(string sceneName)
+    {
+        ChangeSceneAsync(sceneName);
+    }
+
+    /// <summary>
     /// UniTaskでシーン遷移＆遷移後にログ表示
     /// </summary>
-    static public async void ChangeScene(string sceneName)
+    static public async void ChangeSceneAsync(string sceneName)
     {
         await SceneManager.LoadSceneAsync(sceneName);       // シーンを裏でロードし、完了したら遷移
         Debug.Log("Scene変更：" + sceneName);               // 遷移後にログ表示

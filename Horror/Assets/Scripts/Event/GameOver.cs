@@ -52,7 +52,7 @@ public class GameOver : MonoBehaviour
     {
         FungusManager.Instance.CameraManager.Fade(1.0f, 2.0f, null);            // Fungusのフェードを呼ぶ
         await UniTask.Delay(2000, delayTiming: PlayerLoopTiming.FixedUpdate);   // その間待つ
-        GameManager.ChangeScene(buckSceneName);                                 // シーンチェンジ
+        GameManager.ChangeSceneAsync(buckSceneName);                                 // シーンチェンジ
         Debug.Log(buckSceneName + "に再チャレンジ");
     }
 
@@ -61,7 +61,7 @@ public class GameOver : MonoBehaviour
     /// </summary>
     public void ChangeBackTitleScene()
     {
-        GameManager.ChangeScene(titleSceneName);
+        GameManager.ChangeSceneAsync(titleSceneName);
         Debug.Log(titleSceneName + "に戻る");
     }
 }

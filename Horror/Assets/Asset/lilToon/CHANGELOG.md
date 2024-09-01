@@ -4,6 +4,50 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.3] - 2024-04-08
+### Fixed
+- ShadowCaster disappears when the outline is deleted
+- Some textures are not deleted in `Remove Unused Texture`
+- Optimization breaks IDMaskPrior function
+- Shader error when set color to black
+- RimShade mask now working
+- Saving RimShade presets
+- Set keywords on build
+
+## [1.7.2] - 2024-01-18
+### Fixed
+- Toggle doesn't work well in Unity 2019
+
+## [1.7.1] - 2024-01-17
+### Fixed
+- UI Error
+
+## [1.7.0] - 2024-01-17
+### Added
+- UV Tile Discard feature
+
+### Fixed
+- Incorrect material versioning
+- Add shader code text asset to lilcontainer
+
+## [1.6.0] - 2023-12-31
+### Added
+- RimShade feature
+
+### Fixed
+- AssetPostprocessor not working properly
+- Avoid problems caused by incompatibility of shader keywords
+
+## [1.5.2] - 2023-12-30
+### Fixed
+- Fixed an issue where necessary vertex data might be deleted when building AssetBundle
+
+## [1.5.1] - 2023-12-27
+### Fixed
+- Avoid crashes in certain Unity versions
+- Support for material variants
+- Reduced the frequency of material migration
+
 ## [1.5.0] - 2023-12-10
 ### Added
 - Enabled to see property name with alt key

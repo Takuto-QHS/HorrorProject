@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: 0236a77e0febc3c4a8af9e3be0ecd206
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Chest
+    100008: Chest db
+    100010: Chest db_L
+    100012: Chest db_L_end
+    100014: Chest db_R
+    100016: Chest db_R_end
+    100018: DB Bhair
+    100020: DB Bhair.001
+    100022: DB Bhair.002
+    100024: DB Bhair.003
+    100026: DB Bhair.004
+    100028: DB Bhair.004_end
+    100030: DB Bhair.005
+    100032: DB Bhair_L
+    100034: DB Bhair_L.001
+    100036: DB Bhair_L.002
+    100038: DB Bhair_L.003
+    100040: DB Bhair_L.003_end
+    100042: DB Bhair_L.004
+    100044: DB Bhair_L.005
+    100046: DB Bhair_L.006
+    100048: DB Bhair_L.006_end
+    100050: DB Bhair_R
+    100052: DB Bhair_R.001
+    100054: DB Bhair_R.002
+    100056: DB Bhair_R.003
+    100058: DB Bhair_R.003_end
+    100060: DB Bhair_R.004
+    100062: DB Bhair_R.005
+    100064: DB Bhair_R.006
+    100066: DB Bhair_R.006_end
+    100068: DB fh
+    100070: DB fh.001
+    100072: DB fh.001_end
+    100074: DB fh.002
+    100076: DB fh.002_end
+    100078: DB fh.003
+    100080: DB fh.003_end
+    100082: DB fh.004
+    100084: DB fh.004_end
+    100086: DB h.001
+    100088: DB h.001_end
+    100090: DB hand cloth2_L
+    100092: DB hand cloth2_L.001
+    100094: DB hand cloth2_L.001_end
+    100096: DB hand cloth2_L.002
+    100098: DB hand cloth2_L.002_end
+    100100: DB hand cloth2_R
+    100102: DB hand cloth2_R.001
+    100104: DB hand cloth2_R.001_end
+    100106: DB hand cloth2_R.002
+    100108: DB hand cloth2_R.002_end
+    100110: DB hand cloth_L
+    100112: DB hand cloth_L.001
+    100114: DB hand cloth_L.002
+    100116: DB hand cloth_L.003
+    100118: DB hand cloth_L.004
+    100120: DB hand cloth_L.005
+    100122: DB hand cloth_L.005_end
+    100124: DB hand cloth_R
+    100126: DB hand cloth_R.001
+    100128: DB hand cloth_R.002
+    100130: DB hand cloth_R.003
+    100132: DB hand cloth_R.004
+    100134: DB hand cloth_R.005
+    100136: DB hand cloth_R.005_end
+    100138: DB kamikazari
+    100140: DB leg cloth
+    100142: DB leg cloth.001
+    100144: DB leg cloth.002
+    100146: DB leg cloth.002_end
+    100148: DB leg cloth.003
+    100150: DB leg cloth.004
+    100152: DB leg cloth.004_end
+    100154: DB leg cloth.005
+    100156: DB leg cloth.005_end
+    100158: DB leg cloth.006
+    100160: DB leg cloth.006_end
+    100162: DB mimi L
+    100164: DB mimi L.001
+    100166: DB mimi L.002
+    100168: DB mimi L.002_end
+    100170: DB mimi R
+    100172: DB mimi R.001
+    100174: DB mimi R.002
+    100176: DB mimi R.002_end
+    100178: DB Side head
+    100180: DB skirt
+    100182: DB skirt kusari1
+    100184: DB skirt kusari2
+    100186: DB skirt kusari2_end
+    100188: DB skirt.001_L
+    100190: DB skirt.001_L_end
+    100192: DB skirt.001_R
+    100194: DB skirt.001_R_end
+    100196: DB skirt.002
+    100198: DB skirt.003
+    100200: DB skirt.004
+    100202: DB skirt.005
+    100204: DB skirt.005_end
+    100206: DB skirt.006
+    100208: DB skirt.007
+    100210: DB skirt.008
+    100212: DB skirt.009
+    100214: DB skirt.009_end
+    100216: DB skirt.Back
+    100218: DB skirt.front
+    100220: DB skirt.ribon
+    100222: DB skirt_b1_L
+    100224: DB skirt_b1_R
+    100226: DB skirt_b2_L
+    100228: DB skirt_b2_R
+    100230: DB skirt_f1_L
+    100232: DB skirt_f1_R
+    100234: DB skirt_f2_L
+    100236: DB skirt_f2_R
+    100238: DB skirt_L.001
+    100240: DB skirt_L.002
+    100242: DB skirt_L.003
+    100244: DB skirt_L.003_end
+    100246: DB skirt_L.004
+    100248: DB skirt_L.005
+    100250: DB skirt_L.006
+    100252: DB skirt_L.007
+    100254: DB skirt_L.008
+    100256: DB skirt_L.008_end
+    100258: DB skirt_L.009
+    100260: DB skirt_L.010
+    100262: DB skirt_L.011
+    100264: DB skirt_L.012
+    100266: DB skirt_L.012_end
+    100268: DB skirt_L.013
+    100270: DB skirt_L.014
+    100272: DB skirt_L.015
+    100274: DB skirt_L.016
+    100276: DB skirt_L.017
+    100278: DB skirt_L.018
+    100280: DB skirt_L.019
+    100282: DB skirt_L.020
+    100284: DB skirt_L.021
+    100286: DB skirt_L.021_end
+    100288: DB skirt_L.023
+    100290: DB skirt_R.001
+    100292: DB skirt_R.002
+    100294: DB skirt_R.003
+    100296: DB skirt_R.003_end
+    100298: DB skirt_R.004
+    100300: DB skirt_R.005
+    100302: DB skirt_R.006
+    100304: DB skirt_R.007
+    100306: DB skirt_R.008
+    100308: DB skirt_R.008_end
+    100310: DB skirt_R.009
+    100312: DB skirt_R.010
+    100314: DB skirt_R.011
+    100316: DB skirt_R.012
+    100318: DB skirt_R.012_end
+    100320: DB skirt_R.013
+    100322: DB skirt_R.014
+    100324: DB skirt_R.015
+    100326: DB skirt_R.016
+    100328: DB skirt_R.017
+    100330: DB skirt_R.018
+    100332: DB skirt_R.019
+    100334: DB skirt_R.020
+    100336: DB skirt_R.021
+    100338: DB skirt_R.021_end
+    100340: DB skirt_R.023
+    100342: DB skirt_R.023_end
+    100344: DB tail
+    100346: DB tail1
+    100348: Foot_L
+    100350: Foot_R
+    100352: hand_L
+    100354: hand_R
+    100356: Head
+    100358: Head.001_L
+    100360: Head.001_L.001
+    100362: Head.001_L.001_end
+    100364: Head.001_L.002
+    100366: Head.001_L.003
+    100368: Head.001_L.003_end
+    100370: Head.001_L.004
+    100372: Head.001_L.004_end
+    100374: Head.001_L.005
+    100376: Head.001_L.005_end
+    100378: Head.001_R
+    100380: Head.001_R.001
+    100382: Head.001_R.001_end
+    100384: Head.001_R.002
+    100386: Head.001_R.003
+    100388: Head.001_R.003_end
+    100390: Head.001_R.004
+    100392: Head.001_R.004_end
+    100394: Head.001_R.005
+    100396: Head.001_R.005_end
+    100398: Head.002
+    100400: Head.002_end
+    100402: Head.003
+    100404: Head.003_end
+    100406: Head.004
+    100408: Head.004_end
+    100410: Head.005
+    100412: Head.005_end
+    100414: Head.006
+    100416: Head.006_end
+    100418: Hips
+    100420: Hips.003
+    100422: Hips.004
+    100424: Hips.005
+    100426: Hips.005_end
+    100428: Index1_L
+    100430: Index1_R
+    100432: Index2_L
+    100434: Index2_R
+    100436: Index3_L
+    100438: Index3_L_end
+    100440: Index3_R
+    100442: Index3_R_end
+    100444: kape DB_L
+    100446: kape DB_R
+    100448: Little1_L
+    100450: Little1_R
+    100452: Little2_L
+    100454: Little2_R
+    100456: Little3_L
+    100458: Little3_L_end
+    100460: Little3_R
+    100462: Little3_R_end
+    100464: Lower Arm_L
+    100466: Lower Arm_R
+    100468: Lower Leg_L
+    100470: Lower Leg_R
+    100472: Middle1_L
+    100474: Middle1_R
+    100476: Middle2_L
+    100478: Middle2_R
+    100480: Middle3_L
+    100482: Middle3_L_end
+    100484: Middle3_R
+    100486: Middle3_R_end
+    100488: Neck
+    100490: Ring1_L
+    100492: Ring1_R
+    100494: Ring2_L
+    100496: Ring2_R
+    100498: Ring3_L
+    100500: Ring3_L_end
+    100502: Ring3_R
+    100504: Ring3_R_end
+    100506: ryoutare mimi
+    100508: Shoulder_L
+    100510: Shoulder_R
+    100512: Spine
+    100514: //RootNode
+    100516: Tail rotare
+    100518: tati mimi
+    100520: Thumb1_L
+    100522: Thumb1_R
+    100524: Thumb2_L
+    100526: Thumb2_R
+    100528: Thumb3_L
+    100530: Thumb3_L_end
+    100532: Thumb3_R
+    100534: Thumb3_R_end
+    100536: Toes_L
+    100538: Toes_L_end
+    100540: Toes_R
+    100542: Toes_R_end
+    100544: Upper Arm_L
+    100546: Upper Arm_L.001
+    100548: Upper Arm_L.001_end
+    100550: Upper Arm_R
+    100552: Upper Arm_R.001
+    100554: Upper Arm_R.001_end
+    100556: Upper Leg_L
+    100558: Upper Leg_R
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Chest
+    400008: Chest db
+    400010: Chest db_L
+    400012: Chest db_L_end
+    400014: Chest db_R
+    400016: Chest db_R_end
+    400018: DB Bhair
+    400020: DB Bhair.001
+    400022: DB Bhair.002
+    400024: DB Bhair.003
+    400026: DB Bhair.004
+    400028: DB Bhair.004_end
+    400030: DB Bhair.005
+    400032: DB Bhair_L
+    400034: DB Bhair_L.001
+    400036: DB Bhair_L.002
+    400038: DB Bhair_L.003
+    400040: DB Bhair_L.003_end
+    400042: DB Bhair_L.004
+    400044: DB Bhair_L.005
+    400046: DB Bhair_L.006
+    400048: DB Bhair_L.006_end
+    400050: DB Bhair_R
+    400052: DB Bhair_R.001
+    400054: DB Bhair_R.002
+    400056: DB Bhair_R.003
+    400058: DB Bhair_R.003_end
+    400060: DB Bhair_R.004
+    400062: DB Bhair_R.005
+    400064: DB Bhair_R.006
+    400066: DB Bhair_R.006_end
+    400068: DB fh
+    400070: DB fh.001
+    400072: DB fh.001_end
+    400074: DB fh.002
+    400076: DB fh.002_end
+    400078: DB fh.003
+    400080: DB fh.003_end
+    400082: DB fh.004
+    400084: DB fh.004_end
+    400086: DB h.001
+    400088: DB h.001_end
+    400090: DB hand cloth2_L
+    400092: DB hand cloth2_L.001
+    400094: DB hand cloth2_L.001_end
+    400096: DB hand cloth2_L.002
+    400098: DB hand cloth2_L.002_end
+    400100: DB hand cloth2_R
+    400102: DB hand cloth2_R.001
+    400104: DB hand cloth2_R.001_end
+    400106: DB hand cloth2_R.002
+    400108: DB hand cloth2_R.002_end
+    400110: DB hand cloth_L
+    400112: DB hand cloth_L.001
+    400114: DB hand cloth_L.002
+    400116: DB hand cloth_L.003
+    400118: DB hand cloth_L.004
+    400120: DB hand cloth_L.005
+    400122: DB hand cloth_L.005_end
+    400124: DB hand cloth_R
+    400126: DB hand cloth_R.001
+    400128: DB hand cloth_R.002
+    400130: DB hand cloth_R.003
+    400132: DB hand cloth_R.004
+    400134: DB hand cloth_R.005
+    400136: DB hand cloth_R.005_end
+    400138: DB kamikazari
+    400140: DB leg cloth
+    400142: DB leg cloth.001
+    400144: DB leg cloth.002
+    400146: DB leg cloth.002_end
+    400148: DB leg cloth.003
+    400150: DB leg cloth.004
+    400152: DB leg cloth.004_end
+    400154: DB leg cloth.005
+    400156: DB leg cloth.005_end
+    400158: DB leg cloth.006
+    400160: DB leg cloth.006_end
+    400162: DB mimi L
+    400164: DB mimi L.001
+    400166: DB mimi L.002
+    400168: DB mimi L.002_end
+    400170: DB mimi R
+    400172: DB mimi R.001
+    400174: DB mimi R.002
+    400176: DB mimi R.002_end
+    400178: DB Side head
+    400180: DB skirt
+    400182: DB skirt kusari1
+    400184: DB skirt kusari2
+    400186: DB skirt kusari2_end
+    400188: DB skirt.001_L
+    400190: DB skirt.001_L_end
+    400192: DB skirt.001_R
+    400194: DB skirt.001_R_end
+    400196: DB skirt.002
+    400198: DB skirt.003
+    400200: DB skirt.004
+    400202: DB skirt.005
+    400204: DB skirt.005_end
+    400206: DB skirt.006
+    400208: DB skirt.007
+    400210: DB skirt.008
+    400212: DB skirt.009
+    400214: DB skirt.009_end
+    400216: DB skirt.Back
+    400218: DB skirt.front
+    400220: DB skirt.ribon
+    400222: DB skirt_b1_L
+    400224: DB skirt_b1_R
+    400226: DB skirt_b2_L
+    400228: DB skirt_b2_R
+    400230: DB skirt_f1_L
+    400232: DB skirt_f1_R
+    400234: DB skirt_f2_L
+    400236: DB skirt_f2_R
+    400238: DB skirt_L.001
+    400240: DB skirt_L.002
+    400242: DB skirt_L.003
+    400244: DB skirt_L.003_end
+    400246: DB skirt_L.004
+    400248: DB skirt_L.005
+    400250: DB skirt_L.006
+    400252: DB skirt_L.007
+    400254: DB skirt_L.008
+    400256: DB skirt_L.008_end
+    400258: DB skirt_L.009
+    400260: DB skirt_L.010
+    400262: DB skirt_L.011
+    400264: DB skirt_L.012
+    400266: DB skirt_L.012_end
+    400268: DB skirt_L.013
+    400270: DB skirt_L.014
+    400272: DB skirt_L.015
+    400274: DB skirt_L.016
+    400276: DB skirt_L.017
+    400278: DB skirt_L.018
+    400280: DB skirt_L.019
+    400282: DB skirt_L.020
+    400284: DB skirt_L.021
+    400286: DB skirt_L.021_end
+    400288: DB skirt_L.023
+    400290: DB skirt_R.001
+    400292: DB skirt_R.002
+    400294: DB skirt_R.003
+    400296: DB skirt_R.003_end
+    400298: DB skirt_R.004
+    400300: DB skirt_R.005
+    400302: DB skirt_R.006
+    400304: DB skirt_R.007
+    400306: DB skirt_R.008
+    400308: DB skirt_R.008_end
+    400310: DB skirt_R.009
+    400312: DB skirt_R.010
+    400314: DB skirt_R.011
+    400316: DB skirt_R.012
+    400318: DB skirt_R.012_end
+    400320: DB skirt_R.013
+    400322: DB skirt_R.014
+    400324: DB skirt_R.015
+    400326: DB skirt_R.016
+    400328: DB skirt_R.017
+    400330: DB skirt_R.018
+    400332: DB skirt_R.019
+    400334: DB skirt_R.020
+    400336: DB skirt_R.021
+    400338: DB skirt_R.021_end
+    400340: DB skirt_R.023
+    400342: DB skirt_R.023_end
+    400344: DB tail
+    400346: DB tail1
+    400348: Foot_L
+    400350: Foot_R
+    400352: hand_L
+    400354: hand_R
+    400356: Head
+    400358: Head.001_L
+    400360: Head.001_L.001
+    400362: Head.001_L.001_end
+    400364: Head.001_L.002
+    400366: Head.001_L.003
+    400368: Head.001_L.003_end
+    400370: Head.001_L.004
+    400372: Head.001_L.004_end
+    400374: Head.001_L.005
+    400376: Head.001_L.005_end
+    400378: Head.001_R
+    400380: Head.001_R.001
+    400382: Head.001_R.001_end
+    400384: Head.001_R.002
+    400386: Head.001_R.003
+    400388: Head.001_R.003_end
+    400390: Head.001_R.004
+    400392: Head.001_R.004_end
+    400394: Head.001_R.005
+    400396: Head.001_R.005_end
+    400398: Head.002
+    400400: Head.002_end
+    400402: Head.003
+    400404: Head.003_end
+    400406: Head.004
+    400408: Head.004_end
+    400410: Head.005
+    400412: Head.005_end
+    400414: Head.006
+    400416: Head.006_end
+    400418: Hips
+    400420: Hips.003
+    400422: Hips.004
+    400424: Hips.005
+    400426: Hips.005_end
+    400428: Index1_L
+    400430: Index1_R
+    400432: Index2_L
+    400434: Index2_R
+    400436: Index3_L
+    400438: Index3_L_end
+    400440: Index3_R
+    400442: Index3_R_end
+    400444: kape DB_L
+    400446: kape DB_R
+    400448: Little1_L
+    400450: Little1_R
+    400452: Little2_L
+    400454: Little2_R
+    400456: Little3_L
+    400458: Little3_L_end
+    400460: Little3_R
+    400462: Little3_R_end
+    400464: Lower Arm_L
+    400466: Lower Arm_R
+    400468: Lower Leg_L
+    400470: Lower Leg_R
+    400472: Middle1_L
+    400474: Middle1_R
+    400476: Middle2_L
+    400478: Middle2_R
+    400480: Middle3_L
+    400482: Middle3_L_end
+    400484: Middle3_R
+    400486: Middle3_R_end
+    400488: Neck
+    400490: Ring1_L
+    400492: Ring1_R
+    400494: Ring2_L
+    400496: Ring2_R
+    400498: Ring3_L
+    400500: Ring3_L_end
+    400502: Ring3_R
+    400504: Ring3_R_end
+    400506: ryoutare mimi
+    400508: Shoulder_L
+    400510: Shoulder_R
+    400512: Spine
+    400514: //RootNode
+    400516: Tail rotare
+    400518: tati mimi
+    400520: Thumb1_L
+    400522: Thumb1_R
+    400524: Thumb2_L
+    400526: Thumb2_R
+    400528: Thumb3_L
+    400530: Thumb3_L_end
+    400532: Thumb3_R
+    400534: Thumb3_R_end
+    400536: Toes_L
+    400538: Toes_L_end
+    400540: Toes_R
+    400542: Toes_R_end
+    400544: Upper Arm_L
+    400546: Upper Arm_L.001
+    400548: Upper Arm_L.001_end
+    400550: Upper Arm_R
+    400552: Upper Arm_R.001
+    400554: Upper Arm_R.001_end
+    400556: Upper Leg_L
+    400558: Upper Leg_R
+    2100000: Hair
+    4300000: tati mimi
+    4300002: ryoutare mimi
+    9500000: //RootNode
+    13700000: ryoutare mimi
+    13700002: tati mimi
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -267,6 +267,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RimShadeMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Set_1st_ShadePosition:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -430,6 +434,7 @@ Material:
     - _DstBlendAlpha: 10
     - _DstBlendAlphaFA: 1
     - _DstBlendFA: 1
+    - _DummyProperty: 0
     - _EMISSIVE: 0
     - _Emission2ndBlend: 1
     - _Emission2ndBlendMode: 1
@@ -477,6 +482,7 @@ Material:
     - _IDMask6: 0
     - _IDMask7: 0
     - _IDMask8: 0
+    - _IDMaskCompile: 0
     - _IDMaskControlsDissolve: 0
     - _IDMaskFrom: 8
     - _IDMaskIndex1: 0
@@ -696,6 +702,10 @@ Material:
     - _RimLight_Power: 0.1
     - _RimMainStrength: 0
     - _RimNormalStrength: 1
+    - _RimShadeBlur: 1
+    - _RimShadeBorder: 0.5
+    - _RimShadeFresnelPower: 1
+    - _RimShadeNormalStrength: 1
     - _RimShadowMask: 0
     - _RimVRParallaxStrength: 1
     - _Rotate_EmissiveUV: 0
@@ -763,6 +773,25 @@ Material:
     - _Tweak_MatcapMaskLevel: 0
     - _Tweak_RimLightMaskLevel: 0
     - _Tweak_SystemShadowsLevel: 0
+    - _UDIMDiscardCompile: 0
+    - _UDIMDiscardMode: 0
+    - _UDIMDiscardRow0_0: 0
+    - _UDIMDiscardRow0_1: 0
+    - _UDIMDiscardRow0_2: 0
+    - _UDIMDiscardRow0_3: 0
+    - _UDIMDiscardRow1_0: 0
+    - _UDIMDiscardRow1_1: 0
+    - _UDIMDiscardRow1_2: 0
+    - _UDIMDiscardRow1_3: 0
+    - _UDIMDiscardRow2_0: 0
+    - _UDIMDiscardRow2_1: 0
+    - _UDIMDiscardRow2_2: 0
+    - _UDIMDiscardRow2_3: 0
+    - _UDIMDiscardRow3_0: 0
+    - _UDIMDiscardRow3_1: 0
+    - _UDIMDiscardRow3_2: 0
+    - _UDIMDiscardRow3_3: 0
+    - _UDIMDiscardUV: 0
     - _UVSec: 0
     - _Unlit_Intensity: 1
     - _UseAnisotropy: 0
@@ -784,6 +813,7 @@ Material:
     - _UseParallax: 0
     - _UseReflection: 0
     - _UseRim: 0
+    - _UseRimShade: 0
     - _UseShadow: 0
     - _Use_1stAs2nd: 0
     - _Use_BaseAs1st: 0
@@ -797,7 +827,7 @@ Material:
     - _egci: 2
     - _lilDirectionalLightStrength: 1
     - _lilShadowCasterBias: 0
-    - _lilToonVersion: 36
+    - _lilToonVersion: 43
     - _simpleUI: 0
     - _utsTechnique: 0
     - _utsVersion: 2.08
@@ -876,6 +906,7 @@ Material:
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimIndirColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimShadeColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Shadow2ndColor: {r: 0, g: 0, b: 0, a: 0}
     - _Shadow3rdColor: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowAOShift: {r: 1, g: 0, b: 1, a: 0}
@@ -916,3 +947,4 @@ Material:
     - _egc6: {r: 1, g: 1, b: 1, a: 0}
     - _egc7: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

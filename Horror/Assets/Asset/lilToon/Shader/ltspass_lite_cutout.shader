@@ -87,7 +87,7 @@ Shader "Hidden/ltspass_lite_cutout"
         [HideInInspector]                               _BaseColor          ("sColor", Color) = (1,1,1,1)
         [HideInInspector]                               _BaseMap            ("Texture", 2D) = "white" {}
         [HideInInspector]                               _BaseColorMap       ("Texture", 2D) = "white" {}
-        [HideInInspector]                               _lilToonVersion     ("Version", Int) = 36
+        [HideInInspector]                               _lilToonVersion     ("Version", Int) = 43
 
         //----------------------------------------------------------------------------------------------------------------------
         // Advanced
@@ -159,9 +159,9 @@ Shader "Hidden/ltspass_lite_cutout"
     {
         Tags { "ShaderModel" = "4.5"}
         HLSLINCLUDE
-            #define LIL_SRP_VERSION_MAJOR 14
+            #define LIL_SRP_VERSION_MAJOR 17
             #define LIL_SRP_VERSION_MINOR 0
-            #define LIL_SRP_VERSION_PATCH 9
+            #define LIL_SRP_VERSION_PATCH 3
 
             #pragma target 4.5
             #pragma exclude_renderers d3d11_9x
@@ -544,9 +544,9 @@ Shader "Hidden/ltspass_lite_cutout"
     {
         Tags {}
         HLSLINCLUDE
-            #define LIL_SRP_VERSION_MAJOR 14
+            #define LIL_SRP_VERSION_MAJOR 17
             #define LIL_SRP_VERSION_MINOR 0
-            #define LIL_SRP_VERSION_PATCH 9
+            #define LIL_SRP_VERSION_PATCH 3
 
             #pragma exclude_renderers d3d11_9x
             #pragma fragmentoption ARB_precision_hint_fastest
