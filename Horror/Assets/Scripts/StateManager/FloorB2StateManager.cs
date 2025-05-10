@@ -15,7 +15,8 @@ public class FloorB2StateManager : FloorStateManagerTemplate
     private enum STATE_FLOOR_B2
     {
         ELEVATOR_START,
-        SUPICA_FOUND
+        SUPICA_FOUND,
+        ENDING
     }
     [SerializeField]
     private STATE_FLOOR_B2 stateFloorB2;
