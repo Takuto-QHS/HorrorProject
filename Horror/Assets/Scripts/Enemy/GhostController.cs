@@ -33,7 +33,7 @@ public class GhostController : MonoBehaviour
         if (other.gameObject.tag == tagName)
         {
             GameOver.buckSceneName = SceneManager.GetActiveScene().name;
-            GameManager.ChangeScene(gameOverSceneName);
+            GameManager.ChangeSceneAsync(gameOverSceneName);
         }
     }
 }

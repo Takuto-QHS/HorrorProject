@@ -71,7 +71,7 @@ public class physicWalk : MonoBehaviour {
 	float fr = 0f;
 	void Update()
 	{
-		if( GetComponent<Rigidbody>().velocity.magnitude > 0f && grounded )
+		if( GetComponent<Rigidbody>().linearVelocity.magnitude > 0f && grounded )
 		{
 			fr += Time.deltaTime;
 
@@ -138,15 +138,15 @@ public class physicWalk : MonoBehaviour {
 		
 		////
 	 
-	 	if( horizontal != 0f || vertical != 0f || jump != 0f || !grounded ) GetComponent<Rigidbody>().drag = 2f;
+	 	if( horizontal != 0f || vertical != 0f || jump != 0f || !grounded ) GetComponent<Rigidbody>().linearDamping = 2f;
 		else
 		{
-			GetComponent<Rigidbody>().drag += 10f;
+			GetComponent<Rigidbody>().linearDamping += 10f;
 			
-			if( GetComponent<Rigidbody>().drag >= 100f ) GetComponent<Rigidbody>().drag = 100f;
+			if( GetComponent<Rigidbody>().linearDamping >= 100f ) GetComponent<Rigidbody>().linearDamping = 100f;
 		}
 		
-		if( GetComponent<Rigidbody>().velocity.magnitude < speed && grounded == true )
+		if( GetComponent<Rigidbody>().linearVelocity.magnitude < speed && grounded == true )
 		{
 			Vector3 forceV = Vector3.Cross( hit.normal, Vector3.Cross( transform.forward, hit.normal ) );
 			forceV = forceV.normalized;
@@ -159,7 +159,7 @@ public class physicWalk : MonoBehaviour {
 		{
 			canJump = false;
 			Vector3 tmp = Vector3.up * jumpSpeed + ( transform.forward * vertical * 0.1f );
-			GetComponent<Rigidbody>().velocity = GetComponent<Rigidbody>().velocity + tmp;
+			GetComponent<Rigidbody>().linearVelocity = GetComponent<Rigidbody>().linearVelocity + tmp;
 		}
 			
 		if( !grounded )

@@ -12,6 +12,7 @@
     "LIL_FEATURE_RECEIVE_SHADOW": true,
     "LIL_FEATURE_SHADOW_3RD": true,
     "LIL_FEATURE_SHADOW_LUT": true,
+    "LIL_FEATURE_RIMSHADE": true,
     "LIL_FEATURE_EMISSION_1ST": true,
     "LIL_FEATURE_EMISSION_2ND": true,
     "LIL_FEATURE_ANIMATE_EMISSION_UV": true,
@@ -36,6 +37,7 @@
     "LIL_FEATURE_AUDIOLINK_LOCAL": true,
     "LIL_FEATURE_DISSOLVE": true,
     "LIL_FEATURE_IDMASK": true,
+    "LIL_FEATURE_UDIMDISCARD": true,
     "LIL_FEATURE_DITHER": true,
     "LIL_FEATURE_ENCRYPTION": false,
     "LIL_FEATURE_ANIMATE_OUTLINE_UV": true,
@@ -65,6 +67,7 @@
     "LIL_FEATURE_ShadowColorTex": true,
     "LIL_FEATURE_Shadow2ndColorTex": true,
     "LIL_FEATURE_Shadow3rdColorTex": true,
+    "LIL_FEATURE_RimShadeMask": true,
     "LIL_FEATURE_BacklightColorTex": true,
     "LIL_FEATURE_SmoothnessTex": true,
     "LIL_FEATURE_MetallicGlossMap": true,
@@ -131,5 +134,6 @@
     },
     "presetCloth": {
         "instanceID": 0
-    }
+    },
+    "previousVersion": 43
 }

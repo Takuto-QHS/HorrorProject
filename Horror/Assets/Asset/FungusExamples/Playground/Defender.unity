@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +65,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -372,12 +367,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114094183539183980, guid: 5192b1b391d8cd54f84d39d06a4a3dc8,
         type: 3}
-      propertyPath: selectedBlocks.Array.data[0]
+      propertyPath: 'selectedBlocks.Array.data[0]'
       value: 
       objectReference: {fileID: 1124881222}
     - target: {fileID: 114094183539183980, guid: 5192b1b391d8cd54f84d39d06a4a3dc8,
         type: 3}
-      propertyPath: selectedCommands.Array.data[0]
+      propertyPath: 'selectedCommands.Array.data[0]'
       value: 
       objectReference: {fileID: 1398202838}
     - target: {fileID: 114158188752211888, guid: 5192b1b391d8cd54f84d39d06a4a3dc8,
@@ -397,27 +392,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114158188752211888, guid: 5192b1b391d8cd54f84d39d06a4a3dc8,
         type: 3}
-      propertyPath: commandList.Array.data[4]
+      propertyPath: 'commandList.Array.data[4]'
       value: 
       objectReference: {fileID: 1398202838}
     - target: {fileID: 114158188752211888, guid: 5192b1b391d8cd54f84d39d06a4a3dc8,
         type: 3}
-      propertyPath: commandList.Array.data[5]
+      propertyPath: 'commandList.Array.data[5]'
       value: 
       objectReference: {fileID: 1398202840}
     - target: {fileID: 114158188752211888, guid: 5192b1b391d8cd54f84d39d06a4a3dc8,
         type: 3}
-      propertyPath: commandList.Array.data[6]
+      propertyPath: 'commandList.Array.data[6]'
       value: 
       objectReference: {fileID: 1124881218}
     - target: {fileID: 114158188752211888, guid: 5192b1b391d8cd54f84d39d06a4a3dc8,
         type: 3}
-      propertyPath: commandList.Array.data[7]
+      propertyPath: 'commandList.Array.data[7]'
       value: 
       objectReference: {fileID: 1398202839}
     - target: {fileID: 114158188752211888, guid: 5192b1b391d8cd54f84d39d06a4a3dc8,
         type: 3}
-      propertyPath: commandList.Array.data[8]
+      propertyPath: 'commandList.Array.data[8]'
       value: 
       objectReference: {fileID: 1398202839}
     m_RemovedComponents:
@@ -577,12 +572,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114116014992790474, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: selectedBlocks.Array.data[0]
+      propertyPath: 'selectedBlocks.Array.data[0]'
       value: 
       objectReference: {fileID: 1624045260}
     - target: {fileID: 114116014992790474, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: selectedCommands.Array.data[0]
+      propertyPath: 'selectedCommands.Array.data[0]'
       value: 
       objectReference: {fileID: 1624045238}
     - target: {fileID: 114499702294427518, guid: 5db9b59ebaddb664eac17f8dd52f454a,
@@ -607,42 +602,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114980758164341790, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: commandList.Array.data[2]
+      propertyPath: 'commandList.Array.data[2]'
       value: 
       objectReference: {fileID: 1624045237}
     - target: {fileID: 114980758164341790, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: commandList.Array.data[3]
+      propertyPath: 'commandList.Array.data[3]'
       value: 
       objectReference: {fileID: 1624045238}
     - target: {fileID: 114980758164341790, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: commandList.Array.data[4]
+      propertyPath: 'commandList.Array.data[4]'
       value: 
       objectReference: {fileID: 1624045258}
     - target: {fileID: 114980758164341790, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: commandList.Array.data[5]
+      propertyPath: 'commandList.Array.data[5]'
       value: 
       objectReference: {fileID: 1624045252}
     - target: {fileID: 114980758164341790, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: commandList.Array.data[6]
+      propertyPath: 'commandList.Array.data[6]'
       value: 
       objectReference: {fileID: 1624045250}
     - target: {fileID: 114980758164341790, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: commandList.Array.data[7]
+      propertyPath: 'commandList.Array.data[7]'
       value: 
       objectReference: {fileID: 1624045253}
     - target: {fileID: 114980758164341790, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: commandList.Array.data[8]
+      propertyPath: 'commandList.Array.data[8]'
       value: 
       objectReference: {fileID: 1624045253}
     - target: {fileID: 114980758164341790, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: commandList.Array.data[9]
+      propertyPath: 'commandList.Array.data[9]'
       value: 
       objectReference: {fileID: 1624045253}
     - target: {fileID: 114987963891140428, guid: 5db9b59ebaddb664eac17f8dd52f454a,
@@ -652,12 +647,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 212653995144694442, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 212746264793356650, guid: 5db9b59ebaddb664eac17f8dd52f454a,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     m_RemovedComponents:
@@ -3108,6 +3103,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -3166,6 +3164,7 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617824580}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -3189,7 +3188,8 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -3200,7 +3200,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &1624045236 stripped

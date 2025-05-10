@@ -17,6 +17,7 @@ namespace lilToon
 {
     public static class lilToonEditorUtils
     {
+        #pragma warning disable CS0612
         //------------------------------------------------------------------------------------------------------------------------------
         // Constant
         private const string menuPathAssets                 = "Assets/lilToon/";
@@ -608,9 +609,9 @@ namespace lilToon
             sb.AppendLine();
 
             sb.AppendLine("# SRP Information");
-            if(GraphicsSettings.renderPipelineAsset != null)
+            if(GraphicsSettings.defaultRenderPipeline != null)
             {
-                sb.AppendLine("Current RP: " + GraphicsSettings.renderPipelineAsset.ToString());
+                sb.AppendLine("Current RP: " + GraphicsSettings.defaultRenderPipeline.ToString());
             }
             else
             {
@@ -734,7 +735,8 @@ namespace lilToon
                    assetPath.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase);
         }
 
-        public static string GetLoc(string value) { return lilLanguageManager.GetLoc(value); }
+        #pragma warning restore CS0612
+        [Obsolete] public static string GetLoc(string value) { return lilLanguageManager.GetLoc(value); }
     }
 
 #if LILTOON_DISABLE_ASSET_MODIFICATION == false
