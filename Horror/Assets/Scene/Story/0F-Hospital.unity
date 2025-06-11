@@ -9944,168 +9944,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 839519077}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &451630672
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1053050631}
-    m_Modifications:
-    - target: {fileID: 563417295457399810, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_Name
-      value: SayDialog
-      objectReference: {fileID: 0}
-    - target: {fileID: 563417295457399810, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_text
-      value: Story text
-      objectReference: {fileID: 0}
-    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: ce6921ecec79a514b9c73ad00994e801,
-        type: 2}
-    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 3716828878120419017, guid: ce6921ecec79a514b9c73ad00994e801,
-        type: 2}
-    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7541185526918074966, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: ce6921ecec79a514b9c73ad00994e801,
-        type: 2}
-    - target: {fileID: 7541185526918074966, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 3716828878120419017, guid: ce6921ecec79a514b9c73ad00994e801,
-        type: 2}
-    - target: {fileID: 7541185526918074966, guid: 31950da57024d6a46b76c88ced1694e8,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 31950da57024d6a46b76c88ced1694e8, type: 3}
 --- !u!1001 &453577227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12492,8 +12330,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 571472196}
-  selectedCommands: []
+  - {fileID: 571472182}
+  selectedCommands:
+  - {fileID: 571472188}
   variables: []
   description: 
   stepPause: 0
@@ -12548,7 +12387,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65.630135
     y: 67.26027
-    width: 110.27396
+    width: 110.19
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12598,7 +12437,7 @@ MonoBehaviour:
   itemId: 1
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -12643,7 +12482,7 @@ MonoBehaviour:
   itemId: 2
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -12718,7 +12557,7 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -12791,7 +12630,7 @@ MonoBehaviour:
   itemId: 8
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -12820,7 +12659,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -142.08905
     y: 67.24676
-    width: 126.7123
+    width: 128.59
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12848,7 +12687,7 @@ MonoBehaviour:
   itemId: 11
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -12911,7 +12750,7 @@ MonoBehaviour:
   itemId: 10
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -12989,7 +12828,7 @@ MonoBehaviour:
   itemId: 30
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -13038,7 +12877,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &571472196
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13050,9 +12889,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -151.61694
+    x: -152.9868
     y: 123.410965
-    width: 154.10956
+    width: 155.23999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13065,7 +12904,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &571472197
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13078,7 +12917,7 @@ MonoBehaviour:
   itemId: 52
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -13144,7 +12983,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &571472198
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13213,7 +13052,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 122.7473
-    width: 110.43956
+    width: 113.29
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13250,8 +13089,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 574731474}
-  selectedCommands:
-  - {fileID: 574731476}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -13278,7 +13116,7 @@ MonoBehaviour:
   itemId: 51
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -13357,7 +13195,7 @@ MonoBehaviour:
   itemId: 50
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -13419,7 +13257,7 @@ MonoBehaviour:
   itemId: 49
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -13482,7 +13320,7 @@ MonoBehaviour:
   itemId: 48
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -13561,7 +13399,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 21.406595
     y: 71.09896
-    width: 165.38461
+    width: 170.53
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16372,10 +16210,6 @@ GameObject:
   - component: {fileID: 762691303}
   - component: {fileID: 762691302}
   - component: {fileID: 762691301}
-  - component: {fileID: 762691296}
-  - component: {fileID: 762691297}
-  - component: {fileID: 762691300}
-  - component: {fileID: 762691295}
   - component: {fileID: 762691318}
   - component: {fileID: 762691320}
   - component: {fileID: 762691319}
@@ -16405,11 +16239,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 194.5, y: 44.869873}
+  scrollPos: {x: 201.40546, y: 59.552696}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -16430,74 +16264,6 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &762691295
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762691293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  durationOLD: 0
---- !u!114 &762691296
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762691293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 68.5
-    y: 266.13013
-    width: 106
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 37
-  blockName: Animation
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 762691300}
-  - {fileID: 762691295}
-  - {fileID: 762691297}
-  suppressAllAutoSelections: 0
---- !u!114 &762691297
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762691293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 38
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 762691298}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &762691298
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16512,9 +16278,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 85
-    y: 345
-    width: 74
+    x: 84
+    y: 278
+    width: 74.01
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16527,85 +16293,6 @@ MonoBehaviour:
   - {fileID: 762691320}
   - {fileID: 762691319}
   suppressAllAutoSelections: 0
---- !u!114 &762691300
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762691293}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 39
-  indentLevel: 0
-  description: 
-  targetObject: {fileID: 1053050630}
-  targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: 'UnityEngine.Component[]'
-  targetComponentText: FungusExtension
-  targetMethod: SetAnimation
-  targetMethodText: 'SetAnimation (Animator, String, Single): Void'
-  methodParameters:
-  - objValue:
-      typeAssemblyname: UnityEngine.Animator, UnityEngine.AnimationModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      typeFullname: UnityEngine.Animator
-      intValue: 0
-      boolValue: 0
-      floatValue: 0
-      stringValue: 
-      colorValue: {r: 0, g: 0, b: 0, a: 0}
-      gameObjectValue: {fileID: 0}
-      materialValue: {fileID: 0}
-      objectValue: {fileID: 2081748887}
-      spriteValue: {fileID: 0}
-      textureValue: {fileID: 0}
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
-  - objValue:
-      typeAssemblyname: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      typeFullname: System.String
-      intValue: 0
-      boolValue: 0
-      floatValue: 0
-      stringValue: Door_Open_Slow
-      colorValue: {r: 0, g: 0, b: 0, a: 0}
-      gameObjectValue: {fileID: 0}
-      materialValue: {fileID: 0}
-      objectValue: {fileID: 0}
-      spriteValue: {fileID: 0}
-      textureValue: {fileID: 0}
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
-  - objValue:
-      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      typeFullname: System.Single
-      intValue: 0
-      boolValue: 0
-      floatValue: 0
-      stringValue: 
-      colorValue: {r: 0, g: 0, b: 0, a: 0}
-      gameObjectValue: {fileID: 0}
-      materialValue: {fileID: 0}
-      objectValue: {fileID: 0}
-      spriteValue: {fileID: 0}
-      textureValue: {fileID: 0}
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
 --- !u!114 &762691301
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16621,7 +16308,7 @@ MonoBehaviour:
   itemId: 36
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -16686,7 +16373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: "\u5F53\u9928\u306FB1F\uFF5E3F\u5EFA\u3066\u3068\u306A\u3063\u3066\u304A\u308A\u307E\u3059\u3002"
+  storyText: "\n\u3053\u306E\u5148\u3001\u4E00\u822C\u75C5\u68DF\uFF01\n\n\n\u4ED6\u306E\u65B9\u3005\u306E\u3054\u8FF7\u60D1\u3068\u306A\u308A\u307E\u3059\u306E\u3067\n\u304A\u9759\u304B\u306B\u9858\u3044\u307E\u3059\u3002"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16715,7 +16402,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.5
     y: 136.13013
-    width: 75
+    width: 73.85
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16742,7 +16429,7 @@ MonoBehaviour:
   itemId: 30
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 762691296}
+  targetBlock: {fileID: 762691298}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -16783,7 +16470,7 @@ MonoBehaviour:
   itemId: 26
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -16832,7 +16519,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63
     y: 203.63013
-    width: 117
+    width: 115.76
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16922,7 +16609,7 @@ MonoBehaviour:
   itemId: 18
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -16966,7 +16653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  sayDialog: {fileID: 8167445263363683759}
+  sayDialog: {fileID: 1102423837}
 --- !u!114 &762691315
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16998,7 +16685,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66
     y: 64.630135
-    width: 111
+    width: 110.19
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17045,7 +16732,7 @@ MonoBehaviour:
   itemId: 41
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -17073,7 +16760,7 @@ MonoBehaviour:
   itemId: 43
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -17146,7 +16833,7 @@ MonoBehaviour:
   itemId: 44
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -17192,7 +16879,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -178.15909
     y: 77.13013
-    width: 209
+    width: 212.48
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17220,9 +16907,8 @@ MonoBehaviour:
   itemId: 47
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
-  targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  targetObject: {fileID: 1144972619}
+  targetComponentAssemblyName: 
   targetComponentFullname: 'UnityEngine.Component[]'
   targetComponentText: FungusExtension
   targetMethod: SwitchEnableStartTalk
@@ -17282,7 +16968,7 @@ MonoBehaviour:
   itemId: 46
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -17345,7 +17031,7 @@ MonoBehaviour:
   itemId: 45
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -18478,6 +18164,210 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ffc42e4c3db82e45878fb94755c8359, type: 3}
+--- !u!1001 &838524005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1494248839}
+    m_Modifications:
+    - target: {fileID: 563417295457399810, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_Name
+      value: SayDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 563417295457399810, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_text
+      value: Story text
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ce6921ecec79a514b9c73ad00994e801,
+        type: 2}
+    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3716828878120419017, guid: ce6921ecec79a514b9c73ad00994e801,
+        type: 2}
+    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012505958583684469, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161229250223590728, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1515461944, guid: 175cbee260f0c824d94492e4ff25a2e3,
+        type: 3}
+    - target: {fileID: 7541185526918074966, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ce6921ecec79a514b9c73ad00994e801,
+        type: 2}
+    - target: {fileID: 7541185526918074966, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3716828878120419017, guid: ce6921ecec79a514b9c73ad00994e801,
+        type: 2}
+    - target: {fileID: 7541185526918074966, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541185526918074966, guid: 31950da57024d6a46b76c88ced1694e8,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31950da57024d6a46b76c88ced1694e8, type: 3}
+--- !u!224 &838524006 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 838524005}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &839519077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19595,9 +19485,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 877494088}
+  - {fileID: 877494062}
   selectedCommands:
-  - {fileID: 877494095}
+  - {fileID: 877494080}
   variables: []
   description: 
   stepPause: 0
@@ -19625,7 +19515,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66
     y: 64.630135
-    width: 111
+    width: 110.19
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19672,7 +19562,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83
     y: 269
-    width: 74
+    width: 74.01
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19712,7 +19602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  sayDialog: {fileID: 8167445263363683759}
+  sayDialog: {fileID: 1102423837}
 --- !u!114 &877494084
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19748,7 +19638,7 @@ MonoBehaviour:
   itemId: 18
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -19835,7 +19725,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.5
     y: 135.13013
-    width: 75
+    width: 73.85
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19884,7 +19774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63
     y: 203.63013
-    width: 117
+    width: 115.76
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19954,7 +19844,7 @@ MonoBehaviour:
   itemId: 26
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -20057,7 +19947,7 @@ MonoBehaviour:
   itemId: 36
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -23401,52 +23291,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1865797995}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1053050630
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1053050631}
-  - component: {fileID: 1053050632}
-  m_Layer: 0
-  m_Name: FungusDialog
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1053050631
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053050630}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1267523113}
-  - {fileID: 8167445263363683754}
-  m_Father: {fileID: 1363860060}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1053050632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053050630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 004913696652d0a428f67b89393c3fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1054860703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24560,6 +24404,251 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9eaca407e3936f45a69aecbf3ac0055, type: 3}
+--- !u!1001 &1102423831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1494248839}
+    m_Modifications:
+    - target: {fileID: 2210486077348031409, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435711180856192717, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435711180856192717, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -350
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435711180856192717, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435711180856192717, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618609376621819941, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_Name
+      value: SayNovelDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618609376621819941, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627332570738404069, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627332570738404069, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627332570738404069, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627332570738404069, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339748235334794719, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ce6921ecec79a514b9c73ad00994e801,
+        type: 2}
+    - target: {fileID: 5339748235334794719, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3716828878120419017, guid: ce6921ecec79a514b9c73ad00994e801,
+        type: 2}
+    - target: {fileID: 5339748235334794719, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ce6921ecec79a514b9c73ad00994e801,
+        type: 2}
+    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3716828878120419017, guid: ce6921ecec79a514b9c73ad00994e801,
+        type: 2}
+    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
+        type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69be034e6635394439b766a5cde660a0, type: 3}
+--- !u!224 &1102423832 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1102423831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1102423837 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4659257060317435106, guid: 69be034e6635394439b766a5cde660a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1102423831}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1102506162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27862,24 +27951,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1443954289}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &1267523113 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2005942529207225940, guid: 31950da57024d6a46b76c88ced1694e8,
-    type: 3}
-  m_PrefabInstance: {fileID: 451630672}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1267523118 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2705351179150414441, guid: 31950da57024d6a46b76c88ced1694e8,
-    type: 3}
-  m_PrefabInstance: {fileID: 451630672}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1268180495 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3fcc755e45aa29e4baa7d14d8815a7e0,
@@ -31568,7 +31639,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1053050631}
+  - {fileID: 1494248839}
   - {fileID: 1144972621}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32236,7 +32307,7 @@ MonoBehaviour:
   itemId: 4
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -32333,7 +32404,7 @@ MonoBehaviour:
   itemId: 2
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -32378,7 +32449,7 @@ MonoBehaviour:
   itemId: 1
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -32423,8 +32494,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 66
-    y: 68
-    width: 111
+    y: 67
+    width: 110.19
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32467,8 +32538,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1402138180}
-  selectedCommands:
-  - {fileID: 1402138178}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -32553,7 +32623,7 @@ MonoBehaviour:
       intValue: 0
       boolValue: 0
       floatValue: 0
-      stringValue: 2F-Hospital
+      stringValue: 1F-Hospital
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -32603,7 +32673,7 @@ MonoBehaviour:
   itemId: 9
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -32698,7 +32768,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -96
     y: 70
-    width: 152
+    width: 153.03
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32724,7 +32794,7 @@ MonoBehaviour:
   itemId: 12
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -32787,7 +32857,7 @@ MonoBehaviour:
   itemId: 11
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -32866,7 +32936,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -94
     y: 144
-    width: 127
+    width: 128.59
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32894,7 +32964,7 @@ MonoBehaviour:
   itemId: 30
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -32956,7 +33026,7 @@ MonoBehaviour:
   itemId: 52
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -33051,7 +33121,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -102.21979
     y: 217.99998
-    width: 153
+    width: 155.23999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -34570,12 +34640,70 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 306fde77f10bf8d44bcd385d5d892492, type: 3}
+--- !u!114 &1490829223 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2705351179150414441, guid: 31950da57024d6a46b76c88ced1694e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 838524005}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1491287901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 488f0a72079744143aaa5b713e99c99e,
     type: 3}
   m_PrefabInstance: {fileID: 1003129196}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1494248838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1494248839}
+  - component: {fileID: 1494248840}
+  m_Layer: 0
+  m_Name: 'FungusDialog '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1494248839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494248838}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 838524006}
+  - {fileID: 1102423832}
+  m_Father: {fileID: 1363860060}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1494248840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494248838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004913696652d0a428f67b89393c3fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1496057933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37830,7 +37958,6 @@ GameObject:
   - component: {fileID: 1624524338}
   - component: {fileID: 1624524337}
   - component: {fileID: 1624524339}
-  - component: {fileID: 1624524342}
   - component: {fileID: 1624524341}
   - component: {fileID: 1624524340}
   - component: {fileID: 1624524346}
@@ -37849,6 +37976,10 @@ GameObject:
   - component: {fileID: 1624524360}
   - component: {fileID: 1624524359}
   - component: {fileID: 1624524363}
+  - component: {fileID: 1624524367}
+  - component: {fileID: 1624524366}
+  - component: {fileID: 1624524365}
+  - component: {fileID: 1624524364}
   m_Layer: 0
   m_Name: GameStartFlowchart
   m_TagString: Untagged
@@ -37883,8 +38014,6 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1624524362}
   selectedCommands:
-  - {fileID: 1624524361}
-  - {fileID: 1624524360}
   - {fileID: 1624524363}
   variables: []
   description: 
@@ -37911,7 +38040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\u3053\u3053\u306F\u2026\u75C5\u9662\u2026\u2026\uFF1F"
+  storyText: "\u75C5\u9662\u2026\u2026\uFF1F"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -37940,7 +38069,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -309.9292
     y: 2632.4912
-    width: 111.36363
+    width: 110.19
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37952,9 +38081,12 @@ MonoBehaviour:
   - {fileID: 1624524336}
   - {fileID: 1624524339}
   - {fileID: 1624524333}
+  - {fileID: 1624524366}
+  - {fileID: 1624524367}
+  - {fileID: 1624524365}
   - {fileID: 1624524331}
   - {fileID: 1624524338}
-  - {fileID: 1624524342}
+  - {fileID: 1624524364}
   - {fileID: 1624524341}
   - {fileID: 1624524340}
   - {fileID: 1624524350}
@@ -37984,7 +38116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  duration: 2
+  duration: 4
   targetAlpha: 0
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
@@ -38090,7 +38222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "\u306A\u3093\u3067\u3053\u3093\u306A\u8352\u308C\u679C\u3066\u305F\u75C5\u9662\u3067\u5012\u308C\u3066\u2026"
+  storyText: "\u306A\u3093\u3067\u3053\u3093\u306A\u8352\u308C\u679C\u3066\u305F\u75C5\u9662\u3067\u5012\u308C\u3066\u2026\u2026\uFF1F"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -38118,7 +38250,7 @@ MonoBehaviour:
   itemId: 6
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -38189,34 +38321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: "\u4F55\u3082\u601D\u3044\u51FA\u305B\u306A\u3044\u2026"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1624524342
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624524329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 7
-  indentLevel: 0
-  storyText: "\u2026\u2026\u3002"
+  storyText: "\u4F55\u3082\u601D\u3044\u51FA\u305B\u306A\u3044\u3002"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -38326,7 +38431,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 3
   durationOLD: 0
 --- !u!114 &1624524348
 MonoBehaviour:
@@ -38361,7 +38466,7 @@ MonoBehaviour:
   itemId: 17
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -38406,7 +38511,7 @@ MonoBehaviour:
   itemId: 18
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -38469,7 +38574,7 @@ MonoBehaviour:
   itemId: 23
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -38514,7 +38619,7 @@ MonoBehaviour:
   itemId: 24
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -38576,7 +38681,7 @@ MonoBehaviour:
   itemId: 25
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -38619,7 +38724,7 @@ MonoBehaviour:
   itemId: 28
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -38682,7 +38787,7 @@ MonoBehaviour:
   itemId: 27
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -38746,7 +38851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -552.503
     y: 2643.7488
-    width: 169.31818
+    width: 170.53
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38774,7 +38879,7 @@ MonoBehaviour:
   itemId: 29
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -38821,6 +38926,87 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &1624524364
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624524329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
+--- !u!114 &1624524365
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624524329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1624524366
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624524329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
+--- !u!114 &1624524367
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624524329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 30
+  indentLevel: 0
+  storyText: "\u2026\u2026\u3053\u3053\u306F\u4F55\u51E6\uFF1F"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!4 &1625477488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 525b9b37e28c18c44bb9ac1567164443,
@@ -39188,8 +39374,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1646701014}
-  selectedCommands:
-  - {fileID: 1646701016}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -39217,7 +39402,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 69
-    width: 111
+    width: 110.19
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39263,7 +39448,7 @@ MonoBehaviour:
   itemId: 2
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -39335,7 +39520,7 @@ MonoBehaviour:
   itemId: 3
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -39379,7 +39564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  sayDialog: {fileID: 1267523118}
+  sayDialog: {fileID: 1490829223}
 --- !u!114 &1646701020
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -39410,7 +39595,7 @@ MonoBehaviour:
   itemId: 5
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -39470,7 +39655,7 @@ MonoBehaviour:
   itemId: 8
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -39533,7 +39718,7 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -39597,7 +39782,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -176.35616
     y: 66.00001
-    width: 168
+    width: 170.53
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39625,7 +39810,7 @@ MonoBehaviour:
   itemId: 30
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -39687,7 +39872,7 @@ MonoBehaviour:
   itemId: 52
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -39782,7 +39967,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -174.21979
     y: 127
-    width: 153
+    width: 155.23999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46286,7 +46471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1646701013}
+  selectedFlowchart: {fileID: 877494061}
 --- !u!4 &1976769966
 Transform:
   m_ObjectHideFlags: 1
@@ -47777,7 +47962,7 @@ MonoBehaviour:
   itemId: 36
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -47842,7 +48027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: "\u3044\u3064\u3082\n\u3042\u306A\u305F\u3092\n\u898B\u3066\u3044\u308B\u3088"
+  storyText: "\n\u3044\u3064\u3082\n\n\u3042\u306A\u305F\u3092\n\n\u898B\u3066\u3044\u308B\u3088"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -47871,7 +48056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.5
     y: 135.0663
-    width: 74.17582
+    width: 73.85
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -47921,7 +48106,7 @@ MonoBehaviour:
   itemId: 26
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -47970,7 +48155,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63
     y: 202.63013
-    width: 114.83516
+    width: 115.76
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48061,7 +48246,7 @@ MonoBehaviour:
   itemId: 18
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -48105,7 +48290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  sayDialog: {fileID: 8167445263363683759}
+  sayDialog: {fileID: 1102423837}
 --- !u!114 &2041082698
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -48137,7 +48322,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66
     y: 62.50247
-    width: 109.34065
+    width: 110.19
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48179,9 +48364,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2041082711}
-  selectedCommands:
-  - {fileID: 2041082709}
+  - {fileID: 2041082692}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -48208,7 +48392,7 @@ MonoBehaviour:
   itemId: 43
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -48253,7 +48437,7 @@ MonoBehaviour:
   itemId: 45
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -48298,7 +48482,7 @@ MonoBehaviour:
   itemId: 44
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -48358,7 +48542,7 @@ MonoBehaviour:
   itemId: 48
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -48421,7 +48605,7 @@ MonoBehaviour:
   itemId: 47
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -48485,7 +48669,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -236.3842
     y: 78.64109
-    width: 165.38461
+    width: 170.53
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48513,7 +48697,7 @@ MonoBehaviour:
   itemId: 49
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -48575,7 +48759,7 @@ MonoBehaviour:
   itemId: 52
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1053050630}
+  targetObject: {fileID: 1494248838}
   targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: 'UnityEngine.Component[]'
@@ -48670,7 +48854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -234.84125
     y: 128.09163
-    width: 151.09889
+    width: 155.23999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -50973,214 +51157,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1507096595}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &5910699479443601905
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1053050631}
-    m_Modifications:
-    - target: {fileID: 2210486077348031409, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2435711180856192717, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -400
-      objectReference: {fileID: 0}
-    - target: {fileID: 2435711180856192717, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 2435711180856192717, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2435711180856192717, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618609376621819941, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_Name
-      value: SayNovelDialog
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618609376621819941, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3627332570738404069, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 3627332570738404069, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 3627332570738404069, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: 3627332570738404069, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339748235334794719, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: ce6921ecec79a514b9c73ad00994e801,
-        type: 2}
-    - target: {fileID: 5339748235334794719, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: ce6921ecec79a514b9c73ad00994e801,
-        type: 2}
-    - target: {fileID: 8929387922541408073, guid: 69be034e6635394439b766a5cde660a0,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 69be034e6635394439b766a5cde660a0, type: 3}
---- !u!224 &8167445263363683754 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5282476610857948500, guid: 69be034e6635394439b766a5cde660a0,
-    type: 3}
-  m_PrefabInstance: {fileID: 5910699479443601905}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8167445263363683759 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4659257060317435106, guid: 69be034e6635394439b766a5cde660a0,
-    type: 3}
-  m_PrefabInstance: {fileID: 5910699479443601905}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
