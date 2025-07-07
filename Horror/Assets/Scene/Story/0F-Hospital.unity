@@ -13089,7 +13089,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 574731474}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 574731476}
   variables: []
   description: 
   stepPause: 0
@@ -16218,7 +16219,6 @@ GameObject:
   - component: {fileID: 762691326}
   - component: {fileID: 762691325}
   - component: {fileID: 762691324}
-  - component: {fileID: 762691323}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -16877,8 +16877,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -178.15909
-    y: 77.13013
+    x: -179.22292
+    y: 75.00247
     width: 212.48
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -16890,69 +16890,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 762691325}
   - {fileID: 762691324}
-  - {fileID: 762691323}
   suppressAllAutoSelections: 0
---- !u!114 &762691323
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762691293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 47
-  indentLevel: 0
-  description: 
-  targetObject: {fileID: 1144972619}
-  targetComponentAssemblyName: 
-  targetComponentFullname: 'UnityEngine.Component[]'
-  targetComponentText: FungusExtension
-  targetMethod: SwitchEnableStartTalk
-  targetMethodText: 'SwitchEnableStartTalk (Boolean, ClickStartTalkComponent): Void'
-  methodParameters:
-  - objValue:
-      typeAssemblyname: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      typeFullname: System.Boolean
-      intValue: 0
-      boolValue: 0
-      floatValue: 0
-      stringValue: 
-      colorValue: {r: 0, g: 0, b: 0, a: 0}
-      gameObjectValue: {fileID: 0}
-      materialValue: {fileID: 0}
-      objectValue: {fileID: 0}
-      spriteValue: {fileID: 0}
-      textureValue: {fileID: 0}
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
-  - objValue:
-      typeAssemblyname: ClickStartTalkComponent, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      typeFullname: ClickStartTalkComponent
-      intValue: 0
-      boolValue: 0
-      floatValue: 0
-      stringValue: 
-      colorValue: {r: 0, g: 0, b: 0, a: 0}
-      gameObjectValue: {fileID: 0}
-      materialValue: {fileID: 0}
-      objectValue: {fileID: 172460735}
-      spriteValue: {fileID: 0}
-      textureValue: {fileID: 0}
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
 --- !u!114 &762691324
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -31626,6 +31564,9 @@ MonoBehaviour:
   playerCupsule: {fileID: 174712711}
   cinemachineBrain: {fileID: 1918915870}
   floorStateManager: {fileID: 1144972622}
+  prefabPauseManager: {fileID: 1913488737391890775, guid: 2965dbd60c9b9a442aeac4ac6c45a5cc,
+    type: 3}
+  pauseManager: {fileID: 0}
 --- !u!4 &1363860060
 Transform:
   m_ObjectHideFlags: 0
@@ -31641,6 +31582,7 @@ Transform:
   m_Children:
   - {fileID: 1494248839}
   - {fileID: 1144972621}
+  - {fileID: 1998620917}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1364180742 stripped
@@ -38012,9 +37954,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1624524362}
+  - {fileID: 1624524332}
   selectedCommands:
-  - {fileID: 1624524363}
+  - {fileID: 1624524358}
   variables: []
   description: 
   stepPause: 0
@@ -46471,7 +46413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 877494061}
+  selectedFlowchart: {fileID: 0}
 --- !u!4 &1976769966
 Transform:
   m_ObjectHideFlags: 1
@@ -47125,6 +47067,55 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1794463995}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1998620916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998620917}
+  - component: {fileID: 1998620918}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1998620917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998620916}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1363860060}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1998620918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998620916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dcd5144bb7e11a408337194fe1ce76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 7d5277dc0add0b742892b3f7ae226707, type: 2}
+  bgmGroup: {fileID: -735872470004548782, guid: 7d5277dc0add0b742892b3f7ae226707,
+    type: 2}
+  seGroup: {fileID: -3956769845947677231, guid: 7d5277dc0add0b742892b3f7ae226707,
+    type: 2}
 --- !u!1001 &2000815892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48364,8 +48355,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2041082692}
-  selectedCommands: []
+  - {fileID: 2041082707}
+  selectedCommands:
+  - {fileID: 2041082708}
   variables: []
   description: 
   stepPause: 0

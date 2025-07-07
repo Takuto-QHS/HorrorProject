@@ -18945,6 +18945,9 @@ MonoBehaviour:
   playerCupsule: {fileID: 174712711}
   cinemachineBrain: {fileID: 1918915870}
   floorStateManager: {fileID: 1144972622}
+  prefabPauseManager: {fileID: 1913488737391890775, guid: 2965dbd60c9b9a442aeac4ac6c45a5cc,
+    type: 3}
+  pauseManager: {fileID: 0}
 --- !u!4 &1363860060
 Transform:
   m_ObjectHideFlags: 0

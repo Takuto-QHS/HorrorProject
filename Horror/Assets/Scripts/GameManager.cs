@@ -17,10 +17,15 @@ public class GameManager : MonoBehaviour
     private CinemachineBrain cinemachineBrain;              // カメラ移動等のアクセス用
 
     private StarterAssetsInputs playerInput;                // プレイヤーの操作取得用
-    private FirstPersonController firstPersonCtr;           // プレイヤーの角度取得用
+    private FirstPersonController firstPersonCtr;           // プレイヤーの角度&インプット取得用
 
     [SerializeField]
     private FloorStateManagerTemplate floorStateManager;    // 進行度管理用
+
+    [SerializeField]
+    private GameObject prefabPauseManager;
+    [SerializeField]
+    private PauseManager pauseManager = null;                      // ポーズ画面用
 
     private void Awake()
     {
@@ -35,6 +40,12 @@ public class GameManager : MonoBehaviour
         {
             playerInput = playerCupsule.GetComponent<StarterAssetsInputs>();
             firstPersonCtr = playerInput.GetComponent<FirstPersonController>();
+        }
+
+        if(!pauseManager)
+        {
+            if (!prefabPauseManager) return;
+            pauseManager = Instantiate(prefabPauseManager,this.gameObject.transform).GetComponent<PauseManager>();
         }
     }
 
@@ -100,5 +111,30 @@ public class GameManager : MonoBehaviour
     static public void ShowCursol(bool isCursol)
     {
         Cursor.lockState = (isCursol) ? CursorLockMode.None : Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    /// <summary>
+    /// ゲーム終了
+    /// </summary>
+    static public void EndGame()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;//ゲームプレイ終了
+#else
+    Application.Quit();//ゲームプレイ終了
+#endif
+    }
+
+    /// <summary>
+    /// ポーズ画面起動
+    /// </summary>
+    public void BootPause()
+    {
+        pauseManager.gameObject.SetActive(true);
+    }
+
+    public void ResumeGame()
+    {
+        firstPersonCtr.ResumeGame();
     }
 }
