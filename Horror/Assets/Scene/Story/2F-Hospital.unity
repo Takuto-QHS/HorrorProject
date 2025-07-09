@@ -24631,6 +24631,7 @@ GameObject:
   - component: {fileID: 1624524358}
   - component: {fileID: 1624524360}
   - component: {fileID: 1624524359}
+  - component: {fileID: 1624524361}
   m_Layer: 0
   m_Name: GameStartFlowchart
   m_TagString: Untagged
@@ -24665,7 +24666,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1624524332}
   selectedCommands:
-  - {fileID: 1624524333}
+  - {fileID: 1624524361}
   variables: []
   description: 
   stepPause: 0
@@ -24703,6 +24704,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1624524334}
   commandList:
   - {fileID: 1624524339}
+  - {fileID: 1624524361}
   - {fileID: 1624524333}
   - {fileID: 1624524360}
   - {fileID: 1624524359}
@@ -24987,6 +24989,68 @@ MonoBehaviour:
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1624524361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624524329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1053050630}
+  targetComponentAssemblyName: FungusExtension, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: FungusExtension
+  targetMethod: BGMFadeIn
+  targetMethodText: 'BGMFadeIn (AudioClip, Single): UniTask'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      typeFullname: UnityEngine.AudioClip
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 8300000, guid: c1a9aff074cca104898b68c861a4afed, type: 3}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 2
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: Cysharp.Threading.Tasks.UniTask
   showInherited: 0
   callMode: 0
 --- !u!1001 &1637274249
@@ -30471,7 +30535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1331171026}
+  selectedFlowchart: {fileID: 1624524330}
 --- !u!4 &1976769966
 Transform:
   m_ObjectHideFlags: 1

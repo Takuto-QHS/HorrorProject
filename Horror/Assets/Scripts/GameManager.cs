@@ -102,7 +102,6 @@ public class GameManager : MonoBehaviour
     static public async void ChangeSceneAsync(string sceneName)
     {
         await SceneManager.LoadSceneAsync(sceneName);       // シーンを裏でロードし、完了したら遷移
-        Debug.Log("Scene変更：" + sceneName);               // 遷移後にログ表示
     }
 
     /// <summary>

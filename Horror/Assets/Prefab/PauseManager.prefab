@@ -850,6 +850,7 @@ MonoBehaviour:
   sliderSe: {fileID: 8441810507439278706}
   flowchart: {fileID: 5044825111763419992}
   clickGurdPanel: {fileID: 7986693805497537398}
+  valueBGMFadeOut: 1
 --- !u!1 &1992219369269667502
 GameObject:
   m_ObjectHideFlags: 0
@@ -2588,7 +2589,6 @@ GameObject:
   - component: {fileID: 7808635305753543821}
   - component: {fileID: 8011065936494959641}
   - component: {fileID: 6602084712404521219}
-  - component: {fileID: 896985222868114829}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -2653,21 +2653,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &896985222868114829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5259480944353949669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4870c7d0bdddd644a64ab8bc98f83ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  themeController: {fileID: 11400000, guid: e00c7d2bc58a2424b8dc09ecdafdb067, type: 2}
-  hasImage: 1
-  isText: 0
 --- !u!1 &5670408227194301430
 GameObject:
   m_ObjectHideFlags: 0
@@ -3213,9 +3198,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "1920\xD71080"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0b65c99348f068b49bef5db0bb76a6e4, type: 2}
-  m_sharedMaterial: {fileID: 21809785584020342, guid: 0b65c99348f068b49bef5db0bb76a6e4,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3694,7 +3678,6 @@ GameObject:
   - component: {fileID: 3118976553426552833}
   - component: {fileID: 4503447367270367186}
   - component: {fileID: 4886813835059783729}
-  - component: {fileID: 7432472859256012406}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -3759,21 +3742,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7432472859256012406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6265106543946492715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4870c7d0bdddd644a64ab8bc98f83ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  themeController: {fileID: 11400000, guid: e00c7d2bc58a2424b8dc09ecdafdb067, type: 2}
-  hasImage: 1
-  isText: 0
 --- !u!1 &6466981998067696324
 GameObject:
   m_ObjectHideFlags: 0
