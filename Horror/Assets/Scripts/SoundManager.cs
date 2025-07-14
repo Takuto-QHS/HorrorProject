@@ -119,7 +119,6 @@ public class SoundManager : MonoBehaviour
 
         // ñ¬ÇËèIÇÌÇËÇ≈Destroy
         await UniTask.WaitUntil(() => !audioSourceSe.isPlaying);
-        Debug.Log("SE Ç»ÇËèIÇÌÇË");
         Destroy(audioOBJ);
     }
 
