@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Audio;
 using Cysharp.Threading.Tasks;
+using Cysharp.Threading.Tasks.Triggers;
 
 public class SoundManager : MonoBehaviour
 {
@@ -107,7 +108,7 @@ public class SoundManager : MonoBehaviour
     /// <summary>
     /// SE
     /// </summary>
-    public void PlaySE(AudioClip clip,float spatialBlend)
+    public async UniTask PlaySE(AudioClip clip,float spatialBlend)
     {
         GameObject audioOBJ = Instantiate(parentObjectSE, parentObjectSE.transform);
         AudioSource audioSourceSe = audioOBJ.AddComponent<AudioSource>();
@@ -117,6 +118,9 @@ public class SoundManager : MonoBehaviour
         audioSourceSe.Play();
 
         // ñ¬ÇËèIÇÌÇËÇ≈Destroy
+        await UniTask.WaitUntil(() => !audioSourceSe.isPlaying);
+        Debug.Log("SE Ç»ÇËèIÇÌÇË");
+        Destroy(audioOBJ);
     }
 
     public void PauseSE()

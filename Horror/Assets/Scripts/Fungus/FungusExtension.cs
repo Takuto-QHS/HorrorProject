@@ -167,4 +167,9 @@ public class FungusExtension : MonoBehaviour
     {
         await SoundManager.soundManager.StopFadeOutBGM(fadeDuration);
     }
+
+    public async UniTask SEPlay(AudioClip clip, float spatialBlend)
+    {
+        await SoundManager.soundManager.PlaySE(clip, spatialBlend);
+    }
 }
