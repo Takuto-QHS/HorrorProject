@@ -5,6 +5,7 @@ using TMPro;
 using System.Collections.Generic;
 using UnityEngine.Audio;
 using UnityEngine.Rendering;
+using Cysharp.Threading.Tasks;
 
 public class PauseManager : MonoBehaviour
 {
@@ -54,12 +55,14 @@ public class PauseManager : MonoBehaviour
     private Flowchart flowchart;
     [SerializeField]
     private Image clickGurdPanel;
+    [SerializeField]
+    private float valueBGMFadeOut = 2.0f;
 
     void Start()
     {
         btnResume.onClick.AddListener(OnResumeGame);
         btnOption.onClick.AddListener(OnActiveOption);
-        btnTitle.onClick.AddListener(OnBackTitle);
+        btnTitle.onClick.AddListener(() => OnBackTitle().Forget());
 
         InitResolutions();
         clickGurdPanel.gameObject.SetActive(false);
@@ -110,7 +113,7 @@ public class PauseManager : MonoBehaviour
         dialogOption.SetActive(true);
     }
 
-    void OnBackTitle()
+    async UniTask OnBackTitle()
     {
         Time.timeScale = 1;
         GameManager.gameManager.LockPlayer();
@@ -118,6 +121,8 @@ public class PauseManager : MonoBehaviour
 
         // Fungusの機能を使用してフェード＆シーン遷移
         flowchart.SendFungusMessage(_strFlowchartTitle);
+
+        await SoundManager.soundManager.StopFadeOutBGM(valueBGMFadeOut);
     }
 
     /// <summary>

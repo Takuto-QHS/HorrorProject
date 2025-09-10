@@ -4,6 +4,8 @@ using UnityEngine;
 using Cinemachine;
 using UnityEngine.Playables;
 using StarterAssets;
+using Cysharp.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Fungus用関数拡張スクリプト
@@ -152,5 +154,22 @@ public class FungusExtension : MonoBehaviour
     public void SwitchEnableScript(bool isEnable, MonoBehaviour script)
     {
         script.enabled = isEnable;
+    }
+
+    /// <summary>
+    /// BGM
+    /// </summary>
+    public async UniTask BGMFadeIn(AudioClip clip, float fadeDuration)
+    {
+        await SoundManager.soundManager.PlayFadeInBGM(clip, fadeDuration);
+    }
+    public async UniTask BGMFadeOut(float fadeDuration)
+    {
+        await SoundManager.soundManager.StopFadeOutBGM(fadeDuration);
+    }
+
+    public async UniTask SEPlay(AudioClip clip, float spatialBlend)
+    {
+        await SoundManager.soundManager.PlaySE(clip, spatialBlend);
     }
 }
